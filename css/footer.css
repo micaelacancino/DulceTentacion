@@ -16,3 +16,13 @@ background-color: rgb(248, 235, 233);
  height: 15vh;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+.playwrite-ar{
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight:50px ;
+    font-style: normal;
+  }
