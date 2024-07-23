@@ -1,3 +1,18 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
 .colorFooter{
 background-color: rgb(248, 235, 233);
 }
+
+.logoSize{
+ width: 15vh;
+ height: 15vh;
+}
+
