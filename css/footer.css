@@ -1,32 +1,33 @@
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
-.colorFooter{
-background-color: rgb(248, 235, 233);
-}
-
-.logoSize{
- width: 16vh;
- height: 16vh;
+.colorFooter {
+  background-color: rgb(248, 235, 233);
 }
 
-.socialSize{
+.logoSize {
+  width: 20vh;
+  height: 16vh;
+}
+
+.socialSize {
   font-size: 23px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-.playwrite-ar{
-    font-family: "Playwrite AR", cursive;
-    font-optical-sizing: auto;
-    font-weight:50px ;
-    font-style: normal;
-  }
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
