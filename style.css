@@ -1,0 +1,6 @@
+main{
+    background: rgba(248, 235, 233, 1.778)
+    url("/img/holi.jpg")
+      no-repeat center center fixed;
+      background-size: cover;
+}
