@@ -1,6 +1,6 @@
 main{
-    background: rgba(248, 235, 233, 1.778)
-    url("/img/holi.jpg")
+  background: linear-gradient(rgba(237, 171, 255, 0.5), rgba(255, 142, 232, 0.1))
+    url("/img/mic01.jpg")
       no-repeat center center fixed;
       background-size: cover;
 }
