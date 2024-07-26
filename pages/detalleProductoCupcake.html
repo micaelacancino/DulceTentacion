@@ -16,52 +16,65 @@
     />
   </head>
   <body>
-    <header>
+    <!-- <header>
       <div class="box"><p>Header</p></div>
-    </header>
+    </header> -->
     <main>
-      <div class="contenedorMain">
-        <div class="contenedorProducto">
-          <div class="imgDescripcion">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="imgDescripcion col-sm-12 col-md-6">
             <img
+              class="w-100"
               src="/DulceTentacion/img/categorias/cupcakes/cupcakes-de-chocolate.jpg"
               alt="cupChoc"
             />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur doloremque saepe dicta. Eaque, maiores nulla.
-            </p>
           </div>
-          <div class="detalleProducto">
-            <div class="nombre">
-              <p>Cupcake Chocolate</p>
-            </div>
-            <div class="precio">
-              <p>$1200</p>
-            </div>
+          <div class="detalleProducto col-sm-12 col-md-6">
+            <h3>Cupcake Chocolate</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              autem eveniet? Dolorem obcaecati, labore nesciunt facilis
+              consequatur dignissimos necessitatibus quos?
+            </p>
+            <h5>$1200</h5>
+            <h5>Cantidad de Unidades</h5>
+
             <div class="botonPago">
               <p>Medios de Pago</p>
             </div>
-            <div class="cantidad">
-              <p>Cantidad de Unidades</p>
-            </div>
-            <div class="botonCarrito">
-              <p>AGREGAR AL CARRITO</p>
-            </div>
-          </div>
-        </div>
-        <div class="prodSimilares">
-          <h4>Productos Similares</h4>
-          <div class="carruselProductos">
-            <p>Carrusel de Productos Similares</p>
+            <button type="submit" class="rounded-2 colorButtom p-2">
+              Agregar al carrito
+            </button>
           </div>
         </div>
       </div>
+      <div class="contenedorForm d-flex flex-column align-items-center mt-5">
+        <h3 class="mb-4">Deja tu comentario aqui</h3>
+        <form>
+          <label for="comentarios" class="me">Comentarios</label>
+          <textarea
+            class="boxComentario"
+            name=""
+            id="comentarios"
+            placeholder="Ingrese sus comentarios aqui"
+            minlength="30"
+            maxlength="500"
+            rows="3"
+            required
+          >
+          </textarea>
+          <div class="text-end">
+            <button class="colorButtom rounded-2 p-2" type="submit">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
     </main>
-    <footer>
+    <!-- <footer>
       <div class="box">
         <p>footer</p>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>

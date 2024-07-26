@@ -7,3 +7,13 @@ footer p {
 .contenedorProducto {
   display: flex;
 }
+.colorButtom {
+  background-color: rgb(248, 235, 233);
+}
+.colorButtom:hover {
+  background-color: rgba(248, 233, 245, 0.653);
+}
+.boxComentario {
+  width: 30vh;
+  height: 20vh;
+}
