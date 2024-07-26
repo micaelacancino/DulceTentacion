@@ -9,27 +9,35 @@
   background: rgba(206, 167, 202, 0.162);
 }
 
-.colorRosa{
+.colorRosa {
   background-color: rgb(248, 235, 233);
 }
 .colorButtom {
   background-color: rgb(248, 235, 233);
 }
 
-.colorButtom:hover{
-    background-color: rgba(248, 233, 245, 0.653);
+.colorButtom:hover {
+  background-color: rgba(248, 233, 245, 0.653);
 }
 
-.imgSize{
-width: 100%;
-height: 230px;
-object-fit: cover;
-object-position: center;
+.imgSize {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  object-position: center;
 }
 
-.imgSizePublicidad{
+.imgSizePublicidad {
   width: 100%;
   height: 500px;
   object-fit: cover;
   object-position: center;
+}
+
+.card {
+  transition: transform 0.3s ease 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
