@@ -21,6 +21,15 @@
     </header> -->
     <main>
       <div class="container mt-5">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="#">Cupcakes</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Cupcakes de Chocolate
+            </li>
+          </ol>
+        </nav>
         <div class="row">
           <div class="imgDescripcion col-sm-12 col-md-6">
             <img
@@ -48,9 +57,9 @@
           </div>
         </div>
       </div>
-      <div class="contenedorForm d-flex flex-column align-items-center mt-5">
+      <div class="container d-flex flex-column align-items-center mt-5">
         <h3 class="mb-4">Deja tu comentario aqui</h3>
-        <form>
+        <form class="px-5">
           <label for="comentarios" class="me">Comentarios</label>
           <textarea
             class="boxComentario"
@@ -59,7 +68,6 @@
             placeholder="Ingrese sus comentarios aqui"
             minlength="30"
             maxlength="500"
-            rows="3"
             required
           >
           </textarea>
