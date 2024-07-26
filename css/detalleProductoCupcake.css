@@ -20,3 +20,8 @@ footer p {
 form {
   width: 100%;
 }
+.imgUser img {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+}
