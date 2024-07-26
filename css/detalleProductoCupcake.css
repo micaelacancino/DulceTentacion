@@ -1,0 +1,9 @@
+header p {
+  background-color: deeppink;
+}
+footer p {
+  background-color: deeppink;
+}
+.contenedorProducto {
+  display: flex;
+}
