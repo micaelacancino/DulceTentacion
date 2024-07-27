@@ -26,38 +26,48 @@
   <body>
     <header></header>
     <main>
-      <h2 class="text-center my-5">Bienvenidos!</h2>
-      <section class="container">
-        <article class="d-flex justify-content-center align-items-center gap-5">
-          <div class="">
+      <h2 class="text-center my-5">Bienvenido!</h2>
+      <section class="container my-5 py-5">
+        <article class="row">
+          <div class="d-none d-md-block col-md-6 shadow">
             <img
-              class="imgSize"
-              src="/img/cupcakes65.webp"
+              class="imgSize px-5"
+              src="https://static.vecteezy.com/system/resources/previews/011/787/246/non_2x/cake-shop-logo-cupcake-and-berries-illustration-for-menu-recipe-book-baking-shop-cafe-restaurant-vector.jpg"
               alt="Imagen-cupcake"
             />
           </div>
-          <div class="">
-            <form>
+          <div class="col-md-6">
+            <form class="shadow px-5 py-3">
               <h4 class="text-center pb-2">Iniciar sesión</h4>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="email" class="form-label labelSize">Email</label>
                 <input
                   type="email"
                   class="form-control"
                   id="email"
                   aria-describedby="emailHelp"
+                  maxlength="40"
+                  minlength="8"
+                  required
                 />
               </div>
               <div class="mb-3">
                 <label for="contraseña" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="contraseña" />
+                <input
+                  type="password"
+                  class="form-control"
+                  id="contraseña"
+                  maxlength="16"
+                  minlength="8"
+                  required
+                />
               </div>
-              <button type="submit" class="btn colorButtom w-100 mb-2">
+              <button type="submit" class="btn colorButtom w-100 mb-2 border-dark">
                 Ingresar
               </button>
               <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="check" />
-                <label class="form-check-label px-5" for="check"
+                <label class="form-check-label pe-2" for="check"
                   >Recuerdame</label
                 >
 
@@ -65,9 +75,11 @@
               </div>
 
               <hr />
-              <p>
+              <p class="text-center">
                 ¿Aún no tienes cuenta?
-                <a href="/pages/registro.html">Registrate aquí</a>
+                <a class="text-primary" href="/pages/registro.html"
+                  >Registrate aquí</a
+                >
               </p>
               <div class="d-flex flex-column">
                 <a href="/pages/error404.html">
