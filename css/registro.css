@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(/img/img2.jpg);
+  backdrop-filter: blur(2px);
+  background-size: cover;
+  background-attachment: fixed;
+}
