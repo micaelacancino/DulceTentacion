@@ -23,44 +23,48 @@
           <div class="">
             <form>
               <div class="mb-3">
-                <label for="email" class="form-label"
-                  >Email</label
-                >
+                <label for="email" class="form-label">Email</label>
                 <input
                   type="email"
                   class="form-control"
                   id="email"
                   aria-describedby="emailHelp"
                 />
-               
               </div>
               <div class="mb-3">
-                <label for="contraseña" class="form-label"
-                  >Contraseña</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="contraseña"
-                />
+                <label for="contraseña" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="contraseña" />
               </div>
-              <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+              <button type="submit" class="btn btn-primary w-100">
+                Ingresar
+              </button>
               <div class="mb-3 form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="check"
-                />
-                <label class="form-check-label" for="check"
-                  >Recuerdame</label
-                >
-                
-                <a href="">¿Olvidaste tu contraseña?</a>
+                <input type="checkbox" class="form-check-input" id="check" />
+                <label class="form-check-label" for="check">Recuerdame</label>
+
+                <a href="/pages/error404.html">¿Olvidaste tu contraseña?</a>
               </div>
-            
-             
-              <hr>
-              <p>¿Aún no tienes cuenta? <a href="">Registrate aquí</a></p>
+
+              <hr />
+              <p>
+                ¿Aún no tienes cuenta?
+                <a href="/pages/registro.html">Registrate aquí</a>
+              </p>
+              <div class="d-flex flex-column">
+                <a href="/pages/error404.html">
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mb-2 w-100"
+                  >
+                    Iniciar sesión con facebook
+                  </button>
+                </a>
+                <a href="/pages/error404.html">
+                  <button type="button" class="btn btn-outline-danger w-100">
+                    Iniciar sesión con google
+                  </button>
+                </a>
+              </div>
             </form>
           </div>
         </article>
