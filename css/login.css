@@ -3,3 +3,10 @@
     height: 50vh;
 
 }
+.colorButtom {
+    background-color: rgb(248, 235, 233);
+  }
+  
+  .colorButtom:hover {
+    background-color: rgba(248, 233, 245, 0.653);
+  }
