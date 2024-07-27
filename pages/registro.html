@@ -17,41 +17,43 @@
             <h2>Compra mas rapido y lleva el control de tus pedido,!en un solo lugar!</h2>
 
             <label for="nombre">Nombre y Apellido:</label>
-            <input type="text" id="nombre" placeholder="(maximo de 30 caracteres)" required maxlength="30"
+            <input type="text" id="nombre" placeholder="maximo de 30 caracteres" required maxlength="30"
             minlength="3">
 
             <label for="nombre de usuario">Nombre de usuario</label>
             <input type="text"
             id="nombre de usuario"
-            placeholder="(entre 3 y 20 caracteres)"
+            placeholder="entre 3 y 20 caracteres"
             required minlength="3" maxlength="20">
 
             <label for="email">Correo electronico:</label>
             <input type="email"
+            id="email"
             placeholder="Correo electronico"
-            id="email" required>
+            required>
+
+            <label for="telefono">Telefono</label>
+            <input type="tel"
+            id="telefono"
+            placeholder="max 10 num ej:1111111111"
+            required maxlength="10" 
+            pattern="[0-9]{10}">
+
+            <label for="codigopostal">Codigo postal</label>
+            <input type="text"
+            id="codigopostal"
+            placeholder="Codigo postal"
+            required maxlength="5">
 
             <label for="contrasena">Contrasena</label>
             <input type="password"
             id="contrasena"
-            placeholder="(entre 6 y 20 caracteres)"
+            placeholder="entre 6 y 20 caracteres"
             required minlength="6"
             maxlength="20">
 
-            <label for="confirmar contrasena">Confirmar contrasena</label>
-            <input type="password"
-            id="confirmar contrasena"
-            placeholder="Confirmar contrasena"
-            required
-            minlength="6"
-            maxlength="20">
 
-
-
-
-
-
-            <button type="submit">Enviar</button>
+            <button type="submit">Crear cuenta</button>
         </form>
     </main>
     <footer></footer>
