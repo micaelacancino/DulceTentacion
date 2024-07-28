@@ -41,4 +41,14 @@ main{
     text-align: center;
     color: rgb(45, 47, 48);
   }
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: rgb(187, 206, 110);
+    border-color: rgb(56, 55, 43);
+    cursor: pointer;
+    font-size: 15px;}
 
