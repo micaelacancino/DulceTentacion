@@ -16,9 +16,6 @@
     />
   </head>
   <body>
-    <!-- <header>
-      <div class="box"><p>Header</p></div>
-    </header> -->
     <main>
       <div class="container mt-5">
         <nav aria-label="breadcrumb">
@@ -41,15 +38,30 @@
           <div class="detalleProducto col-sm-12 col-md-6">
             <h3>Cupcake Chocolate</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-              autem eveniet? Dolorem obcaecati, labore nesciunt facilis
-              consequatur dignissimos necessitatibus quos?
+              Cupcakes de chocolate con un corazon de dulce de leche repostero y
+              cubiertos con un frosting de mouse de chocolate.
             </p>
-            <h5>$1200</h5>
-            <h5>Cantidad de Unidades</h5>
-
-            <div class="botonPago">
-              <p>Medios de Pago</p>
+            <h5>$1000</h5>
+            <div class="cantidadUnidades">
+              <label for="cantidad">Cantidad de unidades:</label>
+              <input type="number" id="cantidad" name="cantidad" min="1" />
+            </div>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Medios de Pago
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Efectivo</a></li>
+                <li><a class="dropdown-item" href="#">Transferencia</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Tarj. Debito/Crédito</a>
+                </li>
+              </ul>
             </div>
             <button type="submit" class="rounded-2 colorButtom p-2">
               Agregar al carrito
@@ -84,58 +96,50 @@
           <article class="d-flex gap-2">
             <div class="imgUser border rounded-circle border-3">
               <img
-                src="/DulceTentacion/img/usuarios/usuario1.jpg"
+                src="/DulceTentacion/img/usuarios/usuarios1.png"
                 class="rounded-circle"
                 alt=""
               />
             </div>
             <div>
-              <h4>Usuario</h4>
+              <h4>rochi13</h4>
+              <p>Son los cupcakes mas ricos que probé! Super recomendados.</p>
+            </div>
+          </article>
+          <article class="d-flex gap-2">
+            <div class="imgUser border rounded-circle border-3">
+              <img
+                src="/DulceTentacion/img/usuarios/usuarios3.png"
+                class="rounded-circle"
+                alt=""
+              />
+            </div>
+            <div>
+              <h4>jorgeruiz</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit iste quidem vitae dicta, a atque.
+                Los compre para el cumpleaños de mi hija y a todos sus amigos
+                les encantaron. Excelente servicio.
               </p>
             </div>
           </article>
           <article class="d-flex gap-2">
             <div class="imgUser border rounded-circle border-3">
               <img
-                src="/DulceTentacion/img/usuarios/usuario1.jpg"
+                src="/DulceTentacion/img/usuarios/usuarios2.png"
                 class="rounded-circle"
                 alt=""
               />
             </div>
             <div>
-              <h4>Usuario</h4>
+              <h4>maria-gutierrez</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit iste quidem vitae dicta, a atque.
-              </p>
-            </div>
-          </article>
-          <article class="d-flex gap-2">
-            <div class="imgUser border rounded-circle border-3">
-              <img
-                src="/DulceTentacion/img/usuarios/usuario1.jpg"
-                class="rounded-circle"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>Usuario</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit iste quidem vitae dicta, a atque.
+                Estan muy ricos! El cupcake esta muy humedo y el frosting de
+                arriba tiene el punto justo de chocolate.
               </p>
             </div>
           </article>
         </div>
       </section>
     </main>
-    <!-- <footer>
-      <div class="box">
-        <p>footer</p>
-      </div>
-    </footer> -->
   </body>
 </html>
