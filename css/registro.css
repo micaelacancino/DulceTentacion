@@ -4,16 +4,32 @@
 
 }
 body{
-    background-image: url(/img/img2.jpg);
-  backdrop-filter: blur(2px);
+    /* background-image: url(/img/img2.jpg); */
+  /* backdrop-filter: blur(2px);
   background-size: cover;
-  background-attachment: fixed;
-  
+  background-attachment: fixed; */
+
 }
 main{
+  background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
+    url(/img/img4.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.formuarioregistro {
+    /* background-color: rgba(199, 28, 28, 0.3); */
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(92, 93, 92, 0.3);
+    border-radius: 10px;}
+    .contenedorregistro {
+    width: 500px;
+    padding: 30px;}
+  .inputcontenedor {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px}
