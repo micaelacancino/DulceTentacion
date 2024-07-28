@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 main{
   background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
@@ -16,9 +15,7 @@ main{
     justify-content: center;
 }
 .formuarioregistro {
-    background-color: rgba(71, 28, 199, 0.3);
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(92, 93, 92, 0.3);
+    border: 6px solid rgb(225, 211, 211);
     border-radius: 10px;
   }
     .contenedorregistro {
@@ -26,17 +23,22 @@ main{
     padding: 30px;}
 
   .inputcontenedor {
-        /* display: flex; */
-        /* align-items: center; */
         margin-bottom: 25px;
             }
 
   .inputfr{
+    margin-top: 10px;
     width: 100%;
     padding: 10px;
     border-radius: 3px;
     border-color: azure;
     background-color: rgb(237, 244, 239);
     backdrop-filter: blur(40px)
+  }
+  h2{
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(45, 47, 48);
   }
 
