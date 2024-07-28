@@ -3,13 +3,6 @@
     padding: 0;
 
 }
-body{
-    /* background-image: url(/img/img2.jpg); */
-  /* backdrop-filter: blur(2px);
-  background-size: cover;
-  background-attachment: fixed; */
-
-}
 main{
   background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
     url(/img/img4.jpg)
