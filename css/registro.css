@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;}
+    font-style: normal;
+}
 
 main{
   background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
