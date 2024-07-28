@@ -21,17 +21,55 @@
     />
     <link rel="stylesheet" href="/css/login.css" />
     <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/navbar.css">
     <title>Login</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand">
+                <img src="/img/logo1.png" alt="logo-dulce-tentacion" width="120" />
+            </a>
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link font jost" aria-current="page" href="#principal">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link jost" href="#login">Iniciar sesion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link jost" href="#registro">Registrarse</a>
+                    </li>
+                    <li class="nav-item jost">
+                        <a class="nav-link" href="#footer">Contacto</a>
+                    </li> 
+                    <li class="nav-item jost">
+                        <a class="nav-link" href="#">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+                <form class="d-flex mt-2 ms-2" role="search">
+                    <input class="form-control me-2" type="search" placeholder="🔍" aria-label="Search" />
+                    <button class="btn btn-secondary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    </header>
     <main>
       <h2 class="text-center my-5">Bienvenido!</h2>
       <section class="container my-5 py-5">
         <article class="row">
-          <div class="d-none d-md-block col-md-6 shadow">
+          <div class="d-none d-md-block col-md-6 ">
             <img
-              class="imgSize px-5"
+              class="imgSize px-5 rounded-circle"
               src="https://static.vecteezy.com/system/resources/previews/011/787/246/non_2x/cake-shop-logo-cupcake-and-berries-illustration-for-menu-recipe-book-baking-shop-cafe-restaurant-vector.jpg"
               alt="Imagen-cupcake"
             />
@@ -62,7 +100,7 @@
                   required
                 />
               </div>
-              <button type="submit" class="btn colorButtom w-100 mb-2 border-dark">
+              <button type="submit" class="btn colorButtom w-100 mb-2">
                 Ingresar
               </button>
               <div class="mb-3 form-check">
