@@ -58,20 +58,20 @@ main{
   h2{
     padding: 10px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align:center;
     color: rgb(45, 47, 48);
   }
 
   a{
     text-decoration: none;
     color: rgb(68, 65, 65);
-    font-weight: bold;d
+    font-weight: bold;
   }
 
   p{
-    text-align: center;
+    text-align:center;
   }
-  
+
   button {
     width: 100%;
     padding: 10px;
