@@ -15,6 +15,14 @@
   border-radius: 5px;
   background: rgba(206, 167, 202, 0.162);
 }
+.card {
+  transition: 0.7s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
 
 .colorRosa {
   background-color: rgb(248, 235, 233);
@@ -40,15 +48,16 @@
   object-fit: cover;
   object-position: center;
 }
-
-.card {
+.publicidad {
   transition: 0.7s;
 }
 
-.card:hover {
+.publicidad:hover {
   transform: scale(1.05);
   transition: 0.7s;
 }
+
+
 
 
 
