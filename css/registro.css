@@ -19,9 +19,10 @@ main{
     justify-content: center;
 }
 .formuarioregistro {
-    border: 6px solid rgb(147, 139, 139);
+    /* border: 6px solid rgb(147, 139, 139); */
     border-radius: 10px;
-    box-shadow: 40px;
+    /* box-shadow: 40px; */
+    box-shadow: 0px 10px 10px 0px rgb(117, 112, 112);
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -42,13 +43,13 @@ main{
     background-color: rgb(237, 244, 239);
     backdrop-filter: blur(40px)
   }
+  .telcod{
+    display: flex;
+  }
   .inputftco{
-    display: grid;
-    
-    align-items: center;
-    justify-content: center;
+
     margin-top: 10px;
-    width: 50%;
+    width: 90%;
     padding: 10px;
     border-radius: 3px;
     border-color: azure;
@@ -78,8 +79,11 @@ main{
     margin-top: 10px;
     margin-bottom: 25px;
     border-radius: 10px;
-    background-color: rgb(187, 206, 110);
+    background-color: rgb(248, 235, 233);
     border-color: rgb(56, 55, 43);
     cursor: pointer;
     font-size: 15px;}
+    button:hover{
+      background-color: rgb(248,233,245,0.653);
+    }
 
