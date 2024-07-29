@@ -49,3 +49,16 @@
   transform: scale(1.05);
   transition: 0.7s;
 }
+
+
+
+.playwrite-ar{
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+main{
+  font-family: "Playwrite AR", cursive;
+}
