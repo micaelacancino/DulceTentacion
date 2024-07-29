@@ -61,6 +61,17 @@ main{
     text-align: center;
     color: rgb(45, 47, 48);
   }
+
+  a{
+    text-decoration: none;
+    color: rgb(68, 65, 65);
+    font-weight: bold;d
+  }
+
+  p{
+    text-align: center;
+  }
+  
   button {
     width: 100%;
     padding: 10px;
