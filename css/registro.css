@@ -19,8 +19,11 @@ main{
     justify-content: center;
 }
 .formuarioregistro {
-    border: 6px solid rgb(225, 211, 211);
+    border: 6px solid rgb(147, 139, 139);
     border-radius: 10px;
+    box-shadow: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
     .contenedorregistro {
     width: 500px;
@@ -39,8 +42,22 @@ main{
     background-color: rgb(237, 244, 239);
     backdrop-filter: blur(40px)
   }
+  .inputftco{
+    display: grid;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: azure;
+    background-color: rgb(237, 244, 239);
+    backdrop-filter: blur(40px)
+  }
   h2{
     padding: 10px;
+    /* margin-top: 2px; */
     margin-bottom: 20px;
     text-align: center;
     color: rgb(45, 47, 48);
