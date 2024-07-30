@@ -14,6 +14,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/navbar.css">
         <link rel="stylesheet" href="/css/footer.css">
     <title>registro</title>
 </head>
@@ -21,9 +22,9 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand">
-                    <img src="/img/logo1.png" alt="logo-dulce-tentacion" width="120" />
+                    <img src="/img/logo1.png" alt="logo-dulce-tentacion" class="logohead"/>
                 </a>
             
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
@@ -33,21 +34,23 @@
                 
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link font jost" aria-current="page" href="#principal">Inicio</a>
+                        <li class="nav-item jost">
+                            <a class="nav-link font" aria-current="page" href="#principal">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link jost" href="#login">Iniciar sesion</a>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="#login">Iniciar sesión</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item jost">
                             <a class="nav-link jost" href="#registro">Registrarse</a>
                         </li>
                         <li class="nav-item jost">
                             <a class="nav-link" href="#footer">Contacto</a>
                         </li> 
-                        <li class="nav-item jost">
-                            <a class="nav-link" href="#">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
-                        </li>
+                        
+                            <li class="nav-item jost">
+                                <a class="nav-link" href="#">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
+                            </li>
+                        
                     </ul>
                     <form class="d-flex mt-2 ms-2" role="search">
                         <input class="form-control me-2" type="search" placeholder="🔍" aria-label="Search" />
@@ -63,52 +66,52 @@
 
                 <h2>Comprá mas rápido y lleva el control de tus pedido ¡en un solo lugar!</h2>
 
-                <div class="inputcontenedor">
+                <div class="inputcontenedor jost">
                     <label for="nombre">Nombre y Apellido:</label>
                     <input type="text" id="nombre" placeholder="ingrese su nombre y apellido" class="inputfr" required
                         maxlength="30" minlength="3">
                 </div>
 
-                <div class="inputcontenedor">
+                <div class="inputcontenedor jost">
                     <label for="nombre de usuario">Nombre de usuario:</label>
                     <input type="text" id="nombre de usuario" placeholder="ingrese su nombre de usuario" class="inputfr"
                         required minlength="3" maxlength="20">
                 </div>
 
-                <div class="inputcontenedor">
+                <div class="inputcontenedor jost">
                     <label for="email">Correo electrónico:</label>
                     <input type="email" id="email" placeholder="email@example.com" class="inputfr" required>
                 </div>
                 <div class="telcod">
-                    <div class="inputcontenedor">
+                    <div class="inputcontenedor jost">
                         <label for="telefono">Teléfono:</label>
                         <input type="tel" id="telefono" placeholder="ej:1111111111" class="inputftco"
                             required maxlength="10" pattern="[0-9]{10}">
                     </div>
 
-                    <div class="inputcontenedor">
+                    <div class="inputcontenedor jost">
                         <label for="codigopostal">Codigo postal:</label>
                         <input type="text" id="codigopostal" placeholder="Codigo postal" class="inputftco" required
                             maxlength="5">
                     </div>
                 </div>
 
-                <div class="inputcontenedor">
+                <div class="inputcontenedor jost">
                     <label for="contrasena">Contraseña (entre 6 y 20 caracteres):</label>
                     <input type="password" id="contrasena" placeholder="ingrese su contraseña" class="inputfr"
                         required minlength="6" maxlength="20">
                 </div>
-                <div class="Terminos">
+                <div class="Terminos jost">
                     <input type="checkbox" id="terminos" required>
                     <label for="terminos">Acepto términos y condiciones. <a href="#">Ver aqui</a></label>
 
                 </div>
 
 
-                <button type="submit">Crear cuenta</button>
+                <button type="submit" class="jost">Crear cuenta</button>
                 <hr>
-                <p>¿Ya tienes cuenta?
-                    <a class="#" href="#">Inicia sesión acá.</a>
+                <p class="jost">¿Ya tienes cuenta?
+                    <a class="jost" href="#">Inicia sesión acá.</a>
                 </p>
             </div>
         </form>
