@@ -4,8 +4,19 @@ nav{
 
 
 .jost{
+  font-size: 21px;
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight:100px;
   font-style: normal;
 }
+.logohead{
+  width: 15vh;
+  height: 16vh;
+}
+.navbar-toggler{
+  width: 10vh;
+  height:10vh;
+}
+
+

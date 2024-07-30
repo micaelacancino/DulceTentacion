@@ -17,9 +17,9 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand">
-                    <img src="/img/logo1.png" alt="logo-dulce-tentacion" width="120" />
+                    <img src="/img/logo1.png" alt="logo-dulce-tentacion" class="logohead"/>
                 </a>
             
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
@@ -29,22 +29,25 @@
                 
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link font jost" aria-current="page" href="#principal">Inicio</a>
+                        <li class="nav-item jost">
+                            <a class="nav-link font" aria-current="page" href="#principal">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link jost" href="#login">Iniciar sesion</a>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="#login">Iniciar sesion</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item jost">
                             <a class="nav-link jost" href="#registro">Registrarse</a>
                         </li>
                         <li class="nav-item jost">
                             <a class="nav-link" href="#footer">Contacto</a>
                         </li> 
-                        <li class="nav-item jost">
-                            <a class="nav-link" href="#">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
-                        </li>
+                        
+                            <li class="nav-item jost">
+                                <a class="nav-link" href="#">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
+                            </li>
+                        
                     </ul>
+                   
                     <form class="d-flex mt-2 ms-2" role="search">
                         <input class="form-control me-2" type="search" placeholder="🔍" aria-label="Search" />
                         <button class="btn btn-secondary" type="submit">Buscar</button>
