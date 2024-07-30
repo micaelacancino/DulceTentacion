@@ -31,36 +31,48 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div class="input-group">
-            <h2>Contactanos</h2>
-            <br />
-            <label for="name">Nombre</label>
-            <input type="text" class="field" placeholder="Ingrese su Nombre" />
-
-            <label for="Email">Email</label>
-            <input type="text" class="field" placeholder="Ingrese su Email" />
-
-            <label for="Phone">Teléfono</label>
-            <input
-              type="text"
-              class="field"
-              placeholder="Ingrese su Teléfono"
-            />
-
-            <label for="Consulta">Consulta</label>
-            <textarea
-              placeholder="Ingrese su Consulta"
-              class="field"
-            ></textarea>
-
-            <div class="form-txt">
-              <a href="#">Politica De Privacidad</a>
+          <div class="container-form">
+            <form>
+              <h2>Contactanos</h2>
               <br />
-              <a href="#">Terminos Y Condiciones</a>
-            </div>
-            <br />
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                class="input-form"
+                placeholder="Ingrese su Nombre"
+                required
+                maxlength="30"
+                minlength="3"
+              />
 
-            <button class="btn">Enviar</button>
+              <label for="Email">Email</label>
+              <input
+                type="email"
+                class="input-form"
+                placeholder="Ingrese su Email"
+                required
+                maxlength="30"
+                minlength="7"
+              />
+
+              <label for="Consulta">Consulta</label>
+              <textarea
+                placeholder="Ingrese su Consulta"
+                class="input-form"
+                required
+                maxlength="250"
+                minlength="30"
+              ></textarea>
+
+              <div class="form-txt">
+                <a href="#">Politica De Privacidad</a>
+                <br />
+                <a href="#">Terminos Y Condiciones</a>
+              </div>
+              <br />
+
+              <button class="btn">Enviar</button>
+            </form>
           </div>
         </div>
       </div>

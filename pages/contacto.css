@@ -15,7 +15,6 @@ main {
 .body {
   width: 100%;
   height: 100vh;
-  background-image: url(/img/fondo.jpg.jpeg);
 }
 .container {
   position: relative;
@@ -42,7 +41,7 @@ main {
   width: 480px;
   height: 480px;
 }
-.input-group {
+.container-form {
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -60,7 +59,7 @@ main {
   margin-bottom: 10px;
 }
 
-.field {
+.input-form {
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
@@ -68,9 +67,7 @@ main {
   margin-bottom: 22px;
   transition: 0.3s;
 }
-.field:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
+
 textarea {
   min-height: 150px;
 }
@@ -97,15 +94,6 @@ textarea {
   .left iframe {
     padding: 0;
   }
-}
-
-.container {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.864),
-      rgba(242, 242, 242, 0.56)
-    ),
-    url(/img/fondo.jpg.jpeg) no-repeat center center fixed;
-  background-size: cover;
 }
 body {
   font-family: "Roboto mono", monospace;
@@ -145,7 +133,4 @@ button {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
-form {
-  background-color: #fff5f7;
 }
