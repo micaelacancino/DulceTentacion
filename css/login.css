@@ -1,16 +1,3 @@
-.imgSize {
-  width: 100%;
-  height: 57vh;
- 
-}
-.colorButtom {
-  background-color: rgb(248, 235, 233);
-}
-
-.colorButtom:hover {
-  background-color: rgba(248, 233, 245, 0.653);
-}
-
 main {
   background: linear-gradient(
       rgba(255, 255, 255, 0.864),
@@ -20,8 +7,22 @@ main {
   background-size: cover;
   font-family: "Jost", sans-serif;
 }
-form {
+
+.imgSize {
+  width: 100%;
+  height: 50%;
+}
+
+.formLogin {
   background-color: rgb(255, 245, 247);
+}
+
+.colorButtom {
+  background-color: rgb(248, 235, 233);
+}
+
+.colorButtom:hover {
+  background-color: rgba(248, 233, 245, 0.653);
 }
 
 .playwrite-ar {
