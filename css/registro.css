@@ -12,11 +12,12 @@ main {
   background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
     url(/img/img4.jpg) no-repeat center center fixed;
   background-size: cover;
-  min-height: 100vh;
-  display: flex;
+
+  /* min-height: 100vh; */
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .formuarioregistro {
@@ -27,18 +28,18 @@ main {
 }
 
 .contenedorregistro {
-  width: 500px;
-  padding: 30px;
+  /* width: 100px;
+  padding: 30px; */
 }
 
 .inputcontenedor {
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .inputfr {
   margin-top: 10px;
-  width: 100%;
-  padding: 10px;
+  /* width: 100%; */
+  /* padding: 10px; */
   border-radius: 3px;
   border-color: azure;
   background-color: rgb(237, 244, 239);
@@ -47,6 +48,7 @@ main {
 
 .telcod {
   display: flex;
+
 }
 
 .jost {
@@ -58,12 +60,17 @@ main {
 
 .inputftco {
   margin-top: 10px;
-  width: 95%;
+  /* width: 95%; */
   padding: 10px;
   border-radius: 3px;
   border-color: azure;
   background-color: rgb(237, 244, 239);
   backdrop-filter: blur(40px)
+}
+
+.imgsize{
+  width: 80%;
+  height: 57vh;
 }
 
 h2 {
@@ -88,7 +95,7 @@ p {
 }
 
 button {
-  width: 100%;
+  /* width: 100%; */
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 25px;
@@ -101,4 +108,7 @@ button {
 
 button:hover {
   background-color: rgb(248, 233, 245, 0.653);
+}
+.btn{
+  background-color: rgb(248, 235, 233);
 }
