@@ -48,7 +48,8 @@ main {
 .telcod {
   display: flex;
 }
-.jost{
+
+.jost {
   font-family: "Jost", sans-serif;
   font-weight: 100px;
   font-optical-sizing: auto;
@@ -63,14 +64,6 @@ main {
   border-color: azure;
   background-color: rgb(237, 244, 239);
   backdrop-filter: blur(40px)
-}
-
-i {
-  position: absolute;
-  right: 40px;
-  margin-right: 10px;
-  font-size: 17px;
-  color: rgba(41, 37, 37);
 }
 
 h2 {
@@ -109,4 +102,3 @@ button {
 button:hover {
   background-color: rgb(248, 233, 245, 0.653);
 }
-
