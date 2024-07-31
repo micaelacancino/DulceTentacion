@@ -65,6 +65,14 @@ main {
   backdrop-filter: blur(40px)
 }
 
+i {
+  position: absolute;
+  right: 40px;
+  margin-right: 10px;
+  font-size: 17px;
+  color: rgba(41, 37, 37);
+}
+
 h2 {
   font-family: "Playwrite AR", cursive;
   font-optical-sizing: auto;
