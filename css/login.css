@@ -20,6 +20,9 @@ main {
   background-size: cover;
   font-family: "Jost", sans-serif;
 }
+form{
+  background-color:  #FFF5F7;
+}
 
 .playwrite-ar {
   font-family: "Playwrite AR", cursive;
