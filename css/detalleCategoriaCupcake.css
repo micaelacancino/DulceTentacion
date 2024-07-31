@@ -4,3 +4,9 @@
     flex-direction: column;
     justify-content: center;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
