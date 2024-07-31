@@ -19,7 +19,10 @@ main {
   align-items: center;
   justify-content: center; */
 }
+form{
+  /* background-color: rgb(255, 245,247); */
 
+}
 .formuarioregistro {
   border-radius: 10px;
   box-shadow: 0px 10px 10px 0px rgb(117, 112, 112);
@@ -109,6 +112,4 @@ button {
 button:hover {
   background-color: rgb(248, 233, 245, 0.653);
 }
-.btn{
-  background-color: rgb(248, 235, 233);
-}
+

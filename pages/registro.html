@@ -74,103 +74,60 @@
                 <div class="contenedorregistro col-md-6">
                     <form class="jost">
                         <h2>Comprá mas rápido y lleva el control de tus pedido ¡en un solo lugar!</h2>
+                        <hr>
                         <div class="mb-3">
                             <label for="nombreyapellido" class="form-label">Nombre y Apellido</label>
-                            <input type="text" class="form-control" id="nombreyapellido" placeholder="Ingrese su nombre y apellido" required maxlength="30" minlength="3">
+                            <input type="text" class="form-control" id="nombreyapellido"
+                                placeholder="Ingrese su nombre y apellido" required maxlength="30" minlength="3">
                         </div>
 
                         <div class="mb-3">
                             <label for="nombreusuario" class="form-label">Nombre de usuario</label>
-                            <input type="text" class="form-control" id="nombreusuario" placeholder="Ingrese su nombre de usuario" required maxlength="30" minlength="3">
+                            <input type="text" class="form-control" id="nombreusuario"
+                                placeholder="Ingrese su nombre de usuario" required maxlength="30" minlength="3">
                         </div>
-                        <div class="telcod d-flex">
-                            <div class="mb-3">
+                        <div class="d-flex">
+                            <div class="me-1 ">
                                 <label for="telefono" class="form-label">Telefono</label>
-                                <input type="tel" class="form-control" id="telefono" placeholder="ej:1111111111" maxlength="10" pattern="[0-9]{10}"required >
+                                <input type="tel" class="form-control" id="telefono" placeholder="ej:1111111111"
+                                    maxlength="10" pattern="[0-9]{10}" required>
                             </div>
-                            <div class="mb-3">
+                            <div class="ms-1">
                                 <label for="codigopostal" class="form-label">Codigo postal</label>
-                                <input type="text" class="form-control" id="codigopostal" placeholder="Codigo postal" maxlength="5" required>
+                                <input type="text" class="form-control" id="codigopostal" placeholder="Codigo postal"
+                                    maxlength="5" required>
                             </div>
 
                         </div>
 
                         <div class="mb-3">
                             <label for="email" class="form-label">Correo electronico</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="email@example.com" required>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                placeholder="email@example.com" required>
                         </div>
 
                         <div class="mb-3">
                             <label for="Password" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="Password" placeholder="Ingrese su contraseña" required maxlength="30" minlength="3" required>
-                        </div>
-                        
-                        <div class="mb-3 form-check">
-                            <label class="form-check-label" for="terminos">Acepto condiciones.<a href="/pages/error404.html">Ver aqui</a></label>
-                            <input type="checkbox" class="form-check-input" id="terminos" required>
-                            
+                            <input type="password" class="form-control" id="Password"
+                                placeholder="Ingrese su contraseña" required maxlength="30" minlength="3" required>
                         </div>
 
-                        <button type="submit" class="btn btn-secondary">Crear cuenta</button>
-                        <hr>
+                        <div class="mb-3 form-check">
+                            <label class="form-check-label" for="terminos">Acepto condiciones.<a
+                                    href="/pages/error404.html">Ver aqui</a></label>
+                            <input type="checkbox" class="form-check-input" id="terminos" required>
+
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-secondary w-75">Crear cuenta</button>
+                            <hr>
+                        </div>
+
 
                         <p class="jost">¿Ya tienes cuenta?
                             <a class="jost" href="/pages/login.html">Inicia sesión acá.</a>
                         </p>
                     </form>
-                    <!-- <form class="formuarioregistro">
-                        <h2>Comprá mas rápido y lleva el control de tus pedido ¡en un solo lugar!</h2>
-
-                        <div class="inputcontenedor">
-                            <label  class="jost" for="nombre">Nombre y Apellido:</label>
-                            <input type="text" id="nombre" placeholder="ingrese su nombre y apellido" class="inputfr"
-                                required maxlength="30" minlength="3">
-                        </div>
-
-                        <div class="inputcontenedor jost">
-                            <label for="nombre de usuario">Nombre de usuario:</label>
-                            <input type="text" id="nombre de usuario" placeholder="ingrese su nombre de usuario"
-                                class="inputfr" required minlength="3" maxlength="20">
-                        </div>
-
-                        <div class="inputcontenedor jost">
-                            <label for="email">Correo electrónico:</label>
-                            <input type="email" id="email" placeholder="email@example.com" class="inputfr" required>
-                        </div>
-                        <div class="telcod">
-                            <div class="inputcontenedor jost">
-
-                                <label for="telefono">Teléfono:</label>
-                                <input type="tel" id="telefono" placeholder="ej:1111111111" class="inputftco" required
-                                    maxlength="10" pattern="[0-9]{10}">
-                            </div>
-
-                            <div class="inputcontenedor jost">
-                                <label for="codigopostal">Codigo postal:</label>
-                                <input type="text" id="codigopostal" placeholder="Codigo postal" class="inputftco"
-                                    required maxlength="5">
-                            </div>
-                        </div>
-
-                        <div class="inputcontenedor jost">
-                            <label for="contrasena">Contraseña (entre 6 y 20 caracteres):</label>
-                            <input type="password" id="contrasena" placeholder="ingrese su contraseña" class="inputfr"
-                                required minlength="6" maxlength="20">
-                        </div>
-                        <div class="Terminos jost">
-                            <input type="checkbox" id="terminos" required>
-                            <label for="terminos">Acepto términos y condiciones. <a href="#error404">Ver
-                                    aqui</a></label>
-
-                        </div>
-
-
-                        <button type="submit" class="jost">Crear cuenta</button>
-                        <hr>
-                        <p class="jost">¿Ya tienes cuenta?
-                            <a class="jost" href="#login">Inicia sesión acá.</a>
-                        </p>
-                    </form> -->
                 </div>
 
             </article>
