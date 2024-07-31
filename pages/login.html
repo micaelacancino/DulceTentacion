@@ -19,58 +19,80 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/login.css" />
     <link rel="stylesheet" href="/css/footer.css" />
-    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/navbar.css" />
     <title>Login</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand">
-                <img src="/img/logo1.png" alt="logo-dulce-tentacion" width="120" />
-            </a>
-        
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link font jost" aria-current="page" href="/index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link jost" href="#login">Iniciar sesion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link jost" href="#registro">Registrarse</a>
-                    </li>
-                    <li class="nav-item jost">
-                        <a class="nav-link" href="#footer">Contacto</a>
-                    </li> 
-                    <li class="nav-item jost">
-                        <a class="nav-link" href="#">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
-                    </li>
-                </ul>
-                <form class="d-flex mt-2 ms-2" role="search">
-                    <input class="form-control me-2" type="search" placeholder="🔍" aria-label="Search" />
-                    <button class="btn btn-secondary" type="submit">Buscar</button>
-                </form>
-            </div>
+          <a class="navbar-brand">
+            <img src="/img/logo1.png" alt="logo-dulce-tentacion" width="120" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link font jost"
+                  aria-current="page"
+                  href="/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link jost" href="#login">Iniciar sesion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link jost" href="#registro">Registrarse</a>
+              </li>
+              <li class="nav-item jost">
+                <a class="nav-link" href="#footer">Contacto</a>
+              </li>
+              <li class="nav-item jost">
+                <a class="nav-link" href="#"
+                  >Carrito <i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </li>
+            </ul>
+            <form class="d-flex mt-2 ms-2" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="🔍"
+                aria-label="Search"
+              />
+              <button class="btn btn-secondary" type="submit">Buscar</button>
+            </form>
+          </div>
         </div>
-    </nav>
+      </nav>
     </header>
     <main>
       <h2 class="text-center my-5 playwrite-ar">Bienvenido</h2>
       <section class="container my-5 py-5">
         <article class="row">
-          <div class="d-none d-md-block col-md-6 ">
+          <div class="d-none d-md-block col-md-6">
             <img
               class="imgSize px-5 rounded-circle"
               src="/img/R.jpg"
@@ -79,7 +101,7 @@
           </div>
           <div class="col-md-6">
             <form class="shadow px-4 py-4">
-              <h4 class="text-center pb-2 ">Iniciar sesión</h4>
+              <h4 class="text-center pb-2">Iniciar sesión</h4>
               <div class="mb-3">
                 <label for="email" class="form-label labelSize">Email</label>
                 <input
@@ -105,9 +127,7 @@
                   required
                 />
               </div>
-              <button type="submit" class="btn colorButtom w-100 mb-2 border-dark mt-2">
-                Ingresar
-              </button>
+
               <div class="mb-3 form-check pt-2">
                 <input type="checkbox" class="form-check-input" id="check" />
                 <label class="form-check-label pe-2" for="check"
@@ -115,6 +135,19 @@
                 >
 
                 <a href="/pages/error404.html">¿Olvidaste tu contraseña?</a>
+              </div>
+              <div class="d-flex justify-content-end">
+                <a href="/index.html">
+                  <button
+                    type="submit"
+                    class="btn colorButtom mb-2 me-2 border-dark"
+                  >
+                    Volver
+                  </button>
+                </a>
+                <button type="submit" class="btn colorButtom mb-2 border-dark">
+                  Ingresar
+                </button>
               </div>
 
               <hr />
@@ -130,11 +163,13 @@
                     type="button"
                     class="btn btn-outline-primary mb-3 w-100"
                   >
+                    <i class="bi bi-facebook pe-2"></i>
                     Iniciar sesión con facebook
                   </button>
                 </a>
                 <a href="/pages/error404.html">
                   <button type="button" class="btn btn-outline-danger w-100">
+                    <i class="bi bi-google pe-2"></i>
                     Iniciar sesión con google
                   </button>
                 </a>
