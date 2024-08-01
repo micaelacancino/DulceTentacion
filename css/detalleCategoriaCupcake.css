@@ -11,5 +11,11 @@ h2{
 
 }
 .imgcup{
-    width: 60vh;
+    width: 60%;
+}
+p{
+    text-align: center;
+}
+.sabrell{
+    background-color: rgb(240, 219, 232);
 }
