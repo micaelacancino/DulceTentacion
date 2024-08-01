@@ -8,16 +8,15 @@
   font-style: normal;
 }
 
-.formregistro {
-  background-color: rgb(255, 245, 247);
-
-}
-
 .jost {
   font-family: "Jost", sans-serif;
   font-weight: 100px;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.formregistro {
+  background-color: rgb(255, 245, 247);
 }
 
 .imgsize {
@@ -45,3 +44,4 @@ a {
 p {
   text-align: center;
 }
+
