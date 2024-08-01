@@ -28,9 +28,9 @@ h2 {
     object-position: center;
 }
 
-p {
+/* p {
     text-align: center;
-}
+} */
 
 .sabrell {
     background-color: rgb(248, 235, 233);
@@ -75,4 +75,11 @@ p {
     font-weight: 100px;
     font-style: normal;
 }
+    
+@media only screen and (min-width: 1200px) {
+.imgcup{
+      width: 80%;
+      height: 300px;
+    }
+  }
 
