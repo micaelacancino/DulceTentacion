@@ -6,3 +6,23 @@ main {
     url("/img/fondo.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
+img {
+  width: 350px;
+  height: 200px;
+}
+.conteiner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+button {
+  border-radius: 15px;
+  border: none;
+  color: rgb(0, 0, 0);
+  margin-right: 100%;
+  margin-left: 50%;
+}
