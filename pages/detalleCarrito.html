@@ -13,10 +13,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/detalleCarrito.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/css/nabvar.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/detalleCarrito.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/nabvar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <title>Detalle de carrito</title>
   </head>
   <body>
@@ -24,8 +24,35 @@
     <main>
       <h2>Carrito de compras</h2>
       <section class="container">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 border-secondary">
           <h3>Lista de productos</h3>
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/img/categorias/galletas/galletas-jengibre.jpg"
+                  class="img-fluid rounded-start"
+                  alt="galletas-de-jengibre"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Galletas de jengibre</h5>
+
+                  <div>
+                    <label for="unidades">Unidades</label>
+                    <input type="number" id="unidades" min="1" max="300" required />
+                  </div>
+                  <p>Importe $3000</p>
+                  <div class="d-flex justify-content-end">
+                    <a href="/pages/error404.html">
+                      <i class="bi bi-trash3-fill text-danger"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-sm-12 col-md-6"></div>
       </section>
