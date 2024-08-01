@@ -1,30 +1,23 @@
-/* main{
-  background: linear-gradient(rgba(237, 171, 255, 0.5), rgba(255, 142, 232, 0.1))
-    url("/img/mic01.jpg")
-      no-repeat center center fixed;
-      background-size: cover;
-} */
+main {
+  font-family: "Playwrite AR", cursive;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.864),
+      rgba(242, 242, 242, 0.56)
+    ),
+    url("/img/imagen-fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 
-.carouselSize {
-  width: 100%;
-  height: 65vh;
-  object-fit: cover;
-  object-position: center;
-}
-.Color {
-  border-radius: 5px;
-  background: rgba(206, 167, 202, 0.162);
-}
-.card {
+.cardProduct {
   transition: 0.7s;
 }
 
-.card:hover {
+.cardProduct:hover {
   transform: scale(1.05);
   transition: 0.7s;
 }
 
-.colorRosa {
+.bgTitleCategory {
   background-color: rgb(248, 235, 233);
 }
 .colorButtom {
@@ -35,45 +28,31 @@
   background-color: rgba(248, 233, 245, 0.653);
 }
 
-.imgSize {
+.imgCardProduct {
   width: 100%;
   height: 230px;
   object-fit: cover;
   object-position: center;
 }
 
-.imgSizePublicidad {
+.imgSizePromotion {
   width: 100%;
   height: 500px;
   object-fit: cover;
   object-position: center;
 }
-.publicidad {
+.promotion {
   transition: 0.7s;
 }
 
-.publicidad:hover {
+.promotion:hover {
   transform: scale(1.05);
   transition: 0.7s;
 }
 
-
-
-
-
-.playwrite-ar{
+.playwrite-ar {
   font-family: "Playwrite AR", cursive;
   font-optical-sizing: auto;
   font-weight: 100px;
   font-style: normal;
-}
-
-main{
-  font-family: "Playwrite AR", cursive;
-
-    background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
-      url("/img/imagen-fondo.jpg")
-        no-repeat center center fixed;
-    background-size: cover;
-    
 }
