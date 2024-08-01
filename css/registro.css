@@ -8,49 +8,8 @@
   font-style: normal;
 }
 
-main {
-  background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
-    url(/img/img4.jpg) no-repeat center center fixed;
-  background-size: cover;
-
-  /* min-height: 100vh; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-}
-form{
-  /* background-color: rgb(255, 245,247); */
-
-}
-.formuarioregistro {
-  border-radius: 10px;
-  box-shadow: 0px 10px 10px 0px rgb(117, 112, 112);
-  margin-top: 15px;
-  margin-bottom: 50px;
-}
-
-.contenedorregistro {
-  /* width: 100px;
-  padding: 30px; */
-}
-
-.inputcontenedor {
-  /* margin-bottom: 25px; */
-}
-
-.inputfr {
-  margin-top: 10px;
-  /* width: 100%; */
-  /* padding: 10px; */
-  border-radius: 3px;
-  border-color: azure;
-  background-color: rgb(237, 244, 239);
-  backdrop-filter: blur(40px)
-}
-
-.telcod {
-  display: flex;
+.formregistro {
+  background-color: rgb(255, 245, 247);
 
 }
 
@@ -61,17 +20,7 @@ form{
   font-style: normal;
 }
 
-.inputftco {
-  margin-top: 10px;
-  /* width: 95%; */
-  padding: 10px;
-  border-radius: 3px;
-  border-color: azure;
-  background-color: rgb(237, 244, 239);
-  backdrop-filter: blur(40px)
-}
-
-.imgsize{
+.imgsize {
   width: 80%;
   height: 57vh;
 }
@@ -96,20 +45,3 @@ a {
 p {
   text-align: center;
 }
-
-button {
-  /* width: 100%; */
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  border-radius: 10px;
-  background-color: rgb(248, 235, 233);
-  border-color: rgb(56, 55, 43);
-  cursor: pointer;
-  font-size: 15px;
-}
-
-button:hover {
-  background-color: rgb(248, 233, 245, 0.653);
-}
-
