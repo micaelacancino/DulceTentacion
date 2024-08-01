@@ -1,0 +1,10 @@
+main {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.864),
+        rgba(242, 242, 242, 0.56)
+      ),
+      url("/img/imagen-fondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Jost", sans-serif;
+  }
+  
