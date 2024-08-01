@@ -24,6 +24,7 @@
     <main>
       <h2  class="text-center">Carrito de compras</h2>
       <section class="container">
+        <article class="row">
         <div class="col-sm-12 col-md-6 border-secondary my-5">
           <h3 class="text-center py-4">Lista de productos</h3>
           <div class="card mb-3">
@@ -108,7 +109,26 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6"></div>
+        <div class="col-sm-12 col-md-6 my-5 border d-flex flex-column justify-content-around gy-4">
+            <div class="border">
+                <h4 class="text-center">Total de carrito</h4>
+                <h5>Subtotal</h5>
+                <h5>Envío</h5>
+                <h5>Descuentos</h5>
+                <h4>Total a pagar:</h4>
+                <button>Pagar ahora</button>
+
+            </div>
+            <div class="border ">
+                <h5>Tienes un código promocional?</h5>
+                <label for="CodeProm">Código de promoción</label>
+                 <input type="text" id="CodeProm" minlength="5" maxlength="10">
+                 <div class="d-flex justify-content-end">
+                <button>ingresar código</button>
+            </div>
+            </div>
+        </div>
+    </article>
       </section>
     </main>
     <footer></footer>
