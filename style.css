@@ -5,3 +5,8 @@ main {
       ),
       url("/img/imagen-fondo.jpeg") no-repeat center center fixed;
     background-size: cover;}
+
+ *{
+    box-sizing: border-box;
+    padding: 0px;
+ }   
