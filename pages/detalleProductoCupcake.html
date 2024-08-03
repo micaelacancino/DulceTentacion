@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,9 +15,76 @@
       href="/DulceTentacion/css/detalleProductoCupcake.css"
     />
     <link rel="stylesheet" href="/DulceTentacion/css/footer.css" />
+    <link rel="stylesheet" href="/DulceTentacion/css/nabvar.css" />
   </head>
   <body>
     <main>
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand">
+              <img
+                src="/DulceTentacion/img/Logo1.png"
+                alt="logo-dulce-tentacion"
+                class="logohead"
+              />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#menu"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item jost">
+                  <a
+                    class="nav-link font"
+                    aria-current="page"
+                    href="/index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item jost">
+                  <a class="nav-link" href="/pages/login.html"
+                    >Iniciar sesión</a
+                  >
+                </li>
+                <li class="nav-item jost">
+                  <a class="nav-link" href="/pages/registro.html"
+                    >Registrarse</a
+                  >
+                </li>
+                <li class="nav-item jost">
+                  <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item jost">
+                  <a class="nav-link" href="/pages/detalleCarrito.html"
+                    >Carrito <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+              </ul>
+              <form class="d-flex mt-2 ms-2" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="🔍"
+                  aria-label="Search"
+                />
+                <button class="btn btn-secondary" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
       <div class="container mt-5">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
@@ -53,23 +120,6 @@
                 max="200"
                 class="border-2"
               />
-            </div>
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown button
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Efectivo</a></li>
-                <li><a class="dropdown-item" href="#">Transferencia</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Tarj. Débito/Créditogit </a>
-                </li>
-              </ul>
             </div>
             <button type="submit" class="rounded-2 colorButtom p-2">
               Agregar al carrito
@@ -155,7 +205,7 @@
           <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
             <img
               class="logoSize"
-              src="/img/Logo1.png"
+              src="/DulceTentacion/img/Logo.png"
               alt="logo-dulce-tentacion"
             />
           </div>
