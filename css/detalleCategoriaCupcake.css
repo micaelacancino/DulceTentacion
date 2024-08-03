@@ -53,6 +53,10 @@ main {
 .colorButtomdetcat:hover {
     background-color: rgba(248, 233, 245, 0.653);
 }
+.btnpag{
+    background-color: rgb(248, 235, 233);
+}
+
 
 .imgdetallecup{
     width: 100%;
