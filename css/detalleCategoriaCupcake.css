@@ -33,33 +33,28 @@ main {
     url("/img/img2.jpg");
 }
 
-.Color {
-    border-radius: 5px;
-    background: rgba(206, 167, 202, 0.162);
-}
-
-.card {
+.cardcateg{
     transition: 0.7s;
 }
 
-.card:hover {
+.cardcateg:hover {
     transform: scale(1.05);
     transition: 0.7s;
 }
 
-.colorRosa {
+.titcategoria {
     background-color: rgb(248, 235, 233);
 }
 
-.colorButtom {
+.colorButtomdetcat{
     background-color: rgb(248, 235, 233);
 }
 
-.colorButtom:hover {
+.colorButtomdetcat:hover {
     background-color: rgba(248, 233, 245, 0.653);
 }
 
-.imgSize {
+.imgdetallecup{
     width: 100%;
     height: 230px;
     object-fit: cover;
