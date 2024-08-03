@@ -14,7 +14,7 @@ main {
     justify-content: center;
 }
 
-h2 {
+.titdcategoriacup{
     display: flex;
     justify-content: center;
     padding: 40px;
