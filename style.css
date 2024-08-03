@@ -1,10 +1,59 @@
 main {
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.864),
-        rgba(242, 242, 242, 0.56)
-      ),
-      url("/img/imagen-fondo.jpg") no-repeat center center fixed;
-    background-size: cover;
-    font-family: "Jost", sans-serif;
-  }
-  
+  font-family: "Playwrite AR", cursive;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.864),
+      rgba(242, 242, 242, 0.56)
+    ),
+    url("/img/imagen-fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cardProduct {
+  transition: 0.7s;
+}
+
+.cardProduct:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
+.bgTitleCategory {
+  background-color: rgb(248, 235, 233);
+}
+.colorButtom {
+  background-color: rgb(248, 235, 233);
+}
+
+.colorButtom:hover {
+  background-color: rgba(248, 233, 245, 0.653);
+}
+
+.imgCardProduct {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.imgSizePromotion {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+.promotion {
+  transition: 0.7s;
+}
+
+.promotion:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
+.playwrite-ar {
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
