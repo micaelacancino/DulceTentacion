@@ -10,13 +10,21 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
-      href="/DulceTentacion/css/detalleProductoCupcake.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="/DulceTentacion/css/footer.css" />
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/detalleProductoCupcake.css" />
   </head>
   <body>
     <header>
@@ -24,7 +32,7 @@
         <div class="container-fluid">
           <a class="navbar-brand">
             <img
-              src="/DulceTentacion/img/Logo1.png"
+              src="/img/logo1.png"
               alt="logo-dulce-tentacion"
               class="logohead"
             />
@@ -82,9 +90,13 @@
       <div class="container mt-5">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-            <li class="breadcrumb-item"><a href="#">Cupcakes</a></li>
-            <li class="breadcrumb-item active" aria-current="page">
+            <li class="breadcrumb-item fs-5">
+              <a href="/index.html">Inicio</a>
+            </li>
+            <li class="breadcrumb-item fs-5">
+              <a href="/pages/detalleCategoriaCupcake.html">Cupcakes</a>
+            </li>
+            <li class="breadcrumb-item active fs-5" aria-current="page">
               Cupcakes de Chocolate
             </li>
           </ol>
@@ -92,18 +104,18 @@
         <div class="row">
           <div class="imgDescripcion col-sm-12 col-md-6">
             <img
-              class="w-100"
-              src="/DulceTentacion/img/categorias/cupcakes/cupcakes-de-chocolate.jpg"
-              alt="cupChoc"
+              class="w-100 shadow rounded-2"
+              src="/img/categorias/cupcakes/cupcakes-de-chocolate.jpg"
+              alt="Cupcake-de-chocolate"
             />
           </div>
           <div class="detalleProducto col-sm-12 col-md-6">
-            <h3>Cupcake Chocolate</h3>
-            <p>
+            <h3 class="pb-3">Cupcake Chocolate</h3>
+            <p class="pb-4 fs-5">
               Cupcakes de chocolate con un corazón de dulce de leche repostero y
               cubiertos con un frosting de mousse de chocolate.
             </p>
-            <h5>$1000</h5>
+            <h4>$1000</h4>
             <div class="cantidadUnidades">
               <label for="cantidad">Cantidad de unidades:</label>
               <input
@@ -112,101 +124,96 @@
                 name="cantidad"
                 min="1"
                 max="200"
-                class="border-2 inputCant"
+                class="rounded-2 inputCant"
               />
             </div>
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown button
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Efectivo</a></li>
-                <li><a class="dropdown-item" href="#">Transferencia</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Tarj. Débito/Créditogit </a>
-                </li>
-              </ul>
+            <div class="py-3">
+              <p>Medios de pago:</p>
+              <i class="bi bi-credit-card fs-2"></i>
+              <i class="bi bi-bank2 fs-2 ms-3"></i>
             </div>
-            <button type="submit" class="rounded-2 colorButtom p-2">
-              Agregar al carrito
+            <button
+              type="submit"
+              class="rounded-2 colorButtom p-2 mt-3 b border-1"
+            >
+              + Agregar al carrito
             </button>
           </div>
         </div>
       </div>
       <div class="container d-flex align-items-center flex-column mt-5">
-        <h3 class="mb-4">Dejá tu comentario aquí</h3>
+        <h3 class="mb-4">Deja tu comentario aquí</h3>
         <form class="px-2 formComents">
-          <label for="comentarios" class="me">Comentarios</label>
+          <label for="comentarios" class="mb-2 fs-5">Comentarios:</label>
           <textarea
             class="boxComentario"
-            name=""
             id="comentarios"
             placeholder="Ingrese sus comentarios aqui"
-            minlength="30"
+            minlength="20"
             maxlength="500"
             required
           >
           </textarea>
           <div class="text-end">
-            <button class="colorButtom rounded-2 p-2 px-5" type="submit">
+            <button
+              class="colorButtom rounded-2 border-1 p-2 px-5 mt-2"
+              type="submit"
+            >
               Enviar
             </button>
           </div>
         </form>
       </div>
-      <section class="container">
-        <h3 class="text-center">Comentarios</h3>
-        <div class="d-flex flex-column gap-4 justify-content-center">
-          <article class="d-flex gap-2">
-            <div class="imgUser">
-              <img
-                src="/DulceTentacion/img/usuarios/usuarios1.png"
-                class="rounded-circle"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>rochi13</h4>
-              <p>Son los cupcakes más ricos que probé! Super recomendados.</p>
-            </div>
-          </article>
-          <article class="d-flex gap-2">
-            <div class="imgUser">
-              <img
-                src="/DulceTentacion/img/usuarios/usuarios3.png"
-                class="rounded-circle"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>jorgeruiz</h4>
-              <p>
-                Los compré para el cumpleaños de mi hija y a todos sus amigos
-                les encantaron. Excelente servicio.
-              </p>
-            </div>
-          </article>
-          <article class="d-flex gap-2">
-            <div class="imgUser">
-              <img
-                src="/DulceTentacion/img/usuarios/usuarios2.png"
-                class="rounded-circle"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>maria-gutierrez</h4>
-              <p>
-                Estan muy ricos! El cupcake está muy humedo y el frosting de
-                arriba tiene el punto justo de chocolate.
-              </p>
-            </div>
-          </article>
+      <section class="container pb-4">
+        <h3 class="text-center pb-2">Comentarios</h3>
+        <div class="d-flex justify-content-center py-4">
+          <div class="d-flex flex-column gap-4 justify-content-center">
+            <article class="d-flex gap-2">
+              <div class="imgUser">
+                <img
+                  src="/img/usuarios/usuarios1.png"
+                  class="rounded-circle"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4>rochi13</h4>
+                <p>Son los cupcakes más ricos que probé! Super recomendados.</p>
+              </div>
+            </article>
+            <article class="d-flex gap-2">
+              <div class="imgUser">
+                <img
+                  src="/img/usuarios/usuarios3.png"
+                  class="rounded-circle"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h4>jorgeruiz</h4>
+                <p>
+                  Los compré para el cumpleaños de mi hija y a todos sus amigos
+                  les encantaron. Excelente servicio.
+                </p>
+              </div>
+            </article>
+            <article class="d-flex gap-2">
+              <div class="imgUser">
+                <img
+                  src="/img/usuarios/usuarios2.png"
+                  class="rounded-circle"
+                  alt="Usuario"
+                />
+              </div>
+              <div>
+                <h4>maria-gutierrez</h4>
+                <p>
+                  Estan muy ricos! El cupcake está muy humedo y el frosting de
+                  arriba tiene el punto justo de chocolate.
+                </p>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
     </main>
@@ -216,7 +223,7 @@
           <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
             <img
               class="logoSize"
-              src="/DulceTentacion/img/Logo1.png"
+              src="/img/Logo1.png"
               alt="logo-dulce-tentacion"
             />
           </div>
