@@ -6,23 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/detalleCategoriaTorta.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Detallecategoriatorta</title>
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="/img/logo1.png" alt="logo-dulce-tentacion" class="logohead"/>
+                </a>
+            
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item jost">
+                            <a class="nav-link font" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/login.html">Iniciar sesión</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/registro.html">Registrarse</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                        </li> 
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/detalleCarrito.html">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-2 ms-2" role="search">
+                        <input class="form-control me-2" type="search" placeholder="🔍" aria-label="Search" />
+                        <button class="btn btn-secondary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
         <section class="container py-2">
             <div class="Torta">
-                <h1 class="p-1 fw-bold text-center">Tortas</h1>
+                <h1 class="p-1 fw-bold text-center mb-4">Tortas</h1>
             </div>
             <div class="text-center">
                 <img src="/img/img3.jpg" alt="imagen de torta" class="img-fluid imgtort">
             </div>
-            <h2>Variedades</h2>
-            <div class="container d-flex flex-column gap-2 flex-sm-row gap-sm-3 p-3 border varrellto">
+            <h2 class="my-4 mb-4 mt-5">Variedades</h2>
+            <div class="container d-flex flex-column gap-2 flex-sm-row gap-sm-3 p-3 border my-3 varrellto">
                 <div class="container">
                     <p class="fw-bold tit">Especialidades</p>
                     <div class="row">
@@ -84,7 +125,7 @@
         </section>
         <section class="container pt-5">
             <h3 class="text-center mb-5 colorRosa py-2">Tortas</h3>
-            <article class="row gy-4 gy-lg-1">
+            <article class="row gy-4 gy-lg-1 mb-5">
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="card border-0">
                         <img src="/img/categorias/tortas/Caramel-Birthday Cake-.jpg" class="card-img-top imgSize"

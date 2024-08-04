@@ -15,12 +15,14 @@ h2{
 }
 
 .imgtort{
+    border-radius: 5px;
     width: 100%;
     height: 230px;
     object-fit: cover;
     object-position: center;
 }
 .varrellto{
+    border-radius: 5px;
     background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
         url(/img/categorias/tortas/Biscoff-Cookie\ Butter-Drip-Cake.jpg);
 }
@@ -58,7 +60,7 @@ h2{
 }
 @media only screen and (min-width: 1200px) {
     .imgtort{
-        width: 80%;
+        width: 70%;
         height: 300px;
         }
     }    
