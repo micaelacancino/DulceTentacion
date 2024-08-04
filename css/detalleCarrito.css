@@ -21,7 +21,7 @@ background-color: rgba(248, 233, 245, 0.653);
 
 .containerSummaryBuy{
     width: 70%;
-    height: 50%;
+    min-height: 50%;
     background-color: rgb(255, 245, 247);
 }
 
@@ -29,3 +29,30 @@ background-color: rgba(248, 233, 245, 0.653);
     width: 30px;
     background-color: rgb(220, 220, 220);
 }
+
+.containerProm{
+      width: 70%;
+      min-height: 35%;
+      background-color: rgb(255, 245, 247);
+}
+
+@media only screen and (min-width: 768px){
+    .containerProm{
+        width: 100%;
+    }
+    .containerSummaryBuy{
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .containerProm{
+        width: 75%;
+    }
+    .containerSummaryBuy{
+        width: 75%;
+        
+    }
+}
+
