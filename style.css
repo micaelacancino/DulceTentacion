@@ -1,0 +1,9 @@
+main {
+  font-family: "Jost:ital", cursive;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.864),
+      rgba(242, 242, 242, 0.56)
+    ),
+    url("/DulceTentacion/img/imagen\ fondo.jfif") no-repeat center center fixed;
+  background-size: cover;
+}
