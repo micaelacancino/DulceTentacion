@@ -18,13 +18,19 @@
 .formregistro {
   background-color: rgb(255, 245, 247);
 }
+.btnregistro{
+  background-color: rgb(248, 235, 233);
+}
+.btnregistro:hover{
+  background-color: rgb(248, 233, 245,0.653);
+}
 
-.imgsize {
+.imgregistro{
   width: 80%;
   height: 500px;
 }
 
-h2 {
+.titregistro{
   font-family: "Playwrite AR", cursive;
   font-optical-sizing: auto;
   font-weight: 100px;
@@ -35,13 +41,9 @@ h2 {
   color: rgb(45, 47, 48);
 }
 
-a {
+.aregist{
   text-decoration: none;
   color: rgb(68, 65, 65);
   font-weight: bold;
-}
-
-p {
-  text-align: center;
 }
 
