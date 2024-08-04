@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-weight: 100px;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-weight: 100px;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.formregistro {
+  background-color: rgb(255, 245, 247);
+}
+.btnregistro{
+  background-color: rgb(248, 235, 233);
+}
+.btnregistro:hover{
+  background-color: rgb(248, 233, 245,0.653);
+}
+
+.imgregistro{
+  width: 80%;
+  height: 500px;
+}
+
+.titregistro{
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(45, 47, 48);
+}
+
+.aregist{
+  text-decoration: none;
+  color: rgb(68, 65, 65);
+  font-weight: bold;
+}
+
