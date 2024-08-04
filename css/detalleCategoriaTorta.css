@@ -9,10 +9,6 @@ main {
         url("/img/img4.jpg") no-repeat center center fixed;
     background-size: cover;
 }
-/* h2{
-    display: flex;
-    justify-content: center;
-} */
 
 .imgtort{
     border-radius: 5px;
