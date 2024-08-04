@@ -20,9 +20,9 @@ h2{
     object-fit: cover;
     object-position: center;
 }
-.varrelltor{
+.varrellto{
     background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
-        url(/img/categorias/tortas/chocolate-berry\ cake.jpg) no-repeat ;
+        url(/img/categorias/tortas/Biscoff-Cookie\ Butter-Drip-Cake.jpg);
 }
 .Color {
     border-radius: 5px;
@@ -57,7 +57,7 @@ h2{
     object-position: center;
 }
 @media only screen and (min-width: 1200px) {
-    .imgcup{
+    .imgtort{
         width: 80%;
         height: 300px;
         }
