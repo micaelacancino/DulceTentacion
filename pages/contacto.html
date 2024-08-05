@@ -10,10 +10,19 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/navbar.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/contacto.css">
     <title>Contacto</title>
   </head>
   <header>
@@ -75,68 +84,74 @@
   </header>
   <body>
     <main>
-      <div class="container py-5">
-        <div class="contact-box">
-          <div class="left">
-            <p>
-              <br />
-              Rolling Code
-              <br />
-              San Miguel De Tucumán
-            </p>
+      <section class="container py-5">
+        <div class="row">
+          <h2 class="text-center pb-5">Contáctate con nosotros</h2>
+          <article class="col-md-5 p-4 p-md-0 px-md-2 order-1 order-md-0">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.106067949496!2d-65.20974192528035!3d-26.836578490025605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1722293302277!5m2!1ses!2sar"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              class="address mapsSize"
+              src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d113923.41334729818!2d-65.28956847467931!3d-26.83655943099712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sGral.%20Paz%20576%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!3m2!1d-26.836583299999997!2d-65.207167!5e0!3m2!1ses-419!2sar!4v1713831500031!5m2!1ses-419!2sar"
+              frameborder="0"
             ></iframe>
-          </div>
-          <div class="container-form">
-            <form>
-              <h2>Contactanos</h2>
-              <br />
-              <label for="name">Nombre</label>
-              <input
-                type="text"
-                class="input-form"
-                placeholder="Ingrese su Nombre"
-                required
-                maxlength="30"
-                minlength="3"
-              />
-
-              <label for="Email">Email</label>
-              <input
-                type="email"
-                class="input-form"
-                placeholder="Ingrese su Email"
-                required
-                maxlength="30"
-                minlength="7"
-              />
-
-              <label for="Consulta">Consulta</label>
-              <textarea
-                placeholder="Ingrese su Consulta"
-                class="input-form"
-                required
-                maxlength="250"
-                minlength="30"
-              ></textarea>
-
-              <div class="form-txt">
-                <a href="#">Politica De Privacidad</a>
-                <br />
-                <a href="#">Terminos Y Condiciones</a>
+          </article>
+          <article class="col-md-6 px-4 px-lg-5">
+            <form class="formContact p-4 shadow">
+              <div class="mb-3">
+                <label for="nombreAp" class="form-label"
+                  >Nombre y Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreAp"
+                  placeholder="Ingrese su nombre y apellido"
+                  minlength="8"
+                  maxlength="20"
+                  required
+                />
               </div>
-              <br />
 
-              <button class="btn">Enviar</button>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo electronico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com"
+                  minlength="8"
+                  maxlength="35"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="textarea1" class="form-label">Consulta</label>
+                <textarea
+                  class="form-control"
+                  id="textarea1"
+                  rows="3"
+                  placeholder="Escribe su consulta"
+                  minlength="70"
+                  required
+                ></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="check1" />
+                <label class="form-check-label" for="check1"
+                  >Suscribite a nuestras novedades</label
+                >
+              </div>
+              <div class="d-flex justify-content-end">
+                <button
+                  class="btnContact ms-1 border-1 p-2 px-5 rounded-2"
+                  type="submit"
+                >
+                  Enviar
+                </button>
+              </div>
             </form>
-          </div>
+          </article>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="colorFooter" id="footer">
       <section class="container-fluid text-center">
@@ -149,7 +164,7 @@
             />
           </div>
           <div class="col-sm-12 col-md-3">
-            <h5 class="jost ">Soporte</h5>
+            <h5 class="jost">Soporte</h5>
             <ul
               class="list-unstyled d-flex justify-content-center flex-md-column"
             >
@@ -160,7 +175,9 @@
                 <a class="jost px-2" href="./contacto.html">Contactános</a>
               </li>
 
-              <li><a class="jost ps-2 ps-md-0" href="./error404.html">Ayuda</a></li>
+              <li>
+                <a class="jost ps-2 ps-md-0" href="./error404.html">Ayuda</a>
+              </li>
             </ul>
           </div>
           <div class="col-sm-12 col-md-3">
