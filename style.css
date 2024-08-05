@@ -1,13 +1,19 @@
+
+main {
+  font-family: "Jost:ital", cursive;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.864),
+      rgba(242, 242, 242, 0.56)
+    ),
+    url("/DulceTentacion/img/imagen\ fondo.jfif") no-repeat center center fixed;
+  background-size: cover;
+}
+
  *{
     box-sizing: border-box;
     padding: 0px;
  }   
-main {
-    background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
-    url(/img/img4.jpg) no-repeat center center fixed;
-    font-family: "Jost", sans-serif;
-    background-size: cover;
-}
+
 
 .cardProduct {
   transition: 0.7s;
@@ -57,5 +63,6 @@ main {
   font-weight: 100px;
   font-style: normal;
 }
+
 
 
