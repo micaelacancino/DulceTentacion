@@ -20,12 +20,9 @@ main {
   font-size: 23px;
 }
 
-a {
+.jost {
   text-decoration: none;
   color: black;
-}
-
-.jost {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100px;
