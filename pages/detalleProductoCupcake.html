@@ -87,8 +87,8 @@
     </header>
 
     <main>
-      <div class="container mt-5">
-        <nav aria-label="breadcrumb">
+      <div class="container mt-lg-5">
+        <nav aria-label="breadcrumb py-5">
           <ol class="breadcrumb">
             <li class="breadcrumb-item fs-5">
               <a href="/index.html">Inicio</a>
@@ -102,16 +102,18 @@
           </ol>
         </nav>
         <div class="row">
-          <div class="imgDescripcion col-sm-12 col-md-6">
+          <div
+            class="imgDetalleProductoCup col-sm-12 col-md-6 pt-md-2 pt-lg-5 mx-md-auto"
+          >
             <img
               class="w-100 shadow rounded-2"
               src="/img/categorias/cupcakes/cupcakes-de-chocolate.jpg"
               alt="Cupcake-de-chocolate"
             />
           </div>
-          <div class="detalleProducto col-sm-12 col-md-6">
-            <h3 class="pb-3">Cupcake Chocolate</h3>
-            <p class="pb-4 fs-5">
+          <div class="detalleProducto col-lg-6">
+            <h3 class="pb-lg-3 pt-4 fw-bold">Cupcake de Chocolate</h3>
+            <p class="pb-lg-4 fs-5">
               Cupcakes de chocolate con un corazón de dulce de leche repostero y
               cubiertos con un frosting de mousse de chocolate.
             </p>
@@ -128,24 +130,27 @@
               />
             </div>
             <div class="py-3">
-              <p>Medios de pago:</p>
+              <p class="mb-0">Medios de pago:</p>
               <i class="bi bi-credit-card fs-2"></i>
               <i class="bi bi-bank2 fs-2 ms-3"></i>
             </div>
-            <button
-              type="submit"
-              class="rounded-2 colorButtom p-2 mt-3 b border-1"
-            >
-              + Agregar al carrito
-            </button>
+            <a href="/pages/detalleCarrito.html">
+              <button
+                type="submit"
+                class="rounded-2 colorButtomDetalle p-2 mt-lg-3 border-1"
+              >
+                + Agregar al carrito
+              </button>
+            </a>
           </div>
         </div>
       </div>
-      <div class="container d-flex align-items-center flex-column mt-5">
+      <div class="container d-flex align-items-center flex-column mt-5 mt-md-2">
         <h3 class="mb-4">Deja tu comentario aquí</h3>
         <form class="px-2 formComents">
           <label for="comentarios" class="mb-2 fs-5">Comentarios:</label>
           <textarea
+            type="text"
             class="boxComentario"
             id="comentarios"
             placeholder="Ingrese sus comentarios aqui"
@@ -154,9 +159,10 @@
             required
           >
           </textarea>
+
           <div class="text-end">
             <button
-              class="colorButtom rounded-2 border-1 p-2 px-5 mt-2"
+              class="colorButtomDetalle rounded-2 border-1 p-2 px-5 mt-2"
               type="submit"
             >
               Enviar
