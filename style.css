@@ -1,6 +1,10 @@
-main {
+* {
+  box-sizing: border-box;
+  padding: 0px;
+}
 
-  font-family: "Playwrite AR", cursive;
+main {
+  font-family: "Jost", sans-serif;
   background: linear-gradient(
       rgba(255, 255, 255, 0.864),
       rgba(242, 242, 242, 0.56)
@@ -8,42 +12,9 @@ main {
     url("/img/imagen-fondo.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-
-
-.cardProduct {
-  transition: 0.7s;
-}
-
-
-    background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
-    url(/img/img4.jpg) no-repeat center center fixed;
-    background-size: cover;}
-
-
-.cardProduct:hover {
-  transform: scale(1.05);
-  transition: 0.7s;
-}
-
-
-
+.titlePages {
   font-family: "Playwrite AR", cursive;
-
-  font-family: "Jost:ital", cursive;
-
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.864),
-      rgba(242, 242, 242, 0.56)
-    ),
-    url("/DulceTentacion/img/imagen\ fondo.jfif") no-repeat center center fixed;
-  background-size: cover;
 }
-
- *{
-    box-sizing: border-box;
-    padding: 0px;
- }   
-
 
 .cardProduct {
   transition: 0.7s;
@@ -53,7 +24,6 @@ main {
   transform: scale(1.05);
   transition: 0.7s;
 }
-
 
 .bgTitleCategory {
   background-color: rgb(248, 235, 233);
@@ -88,10 +58,9 @@ main {
   transition: 0.7s;
 }
 
-.playwrite-ar {
+/* .playwrite-ar {
   font-family: "Playwrite AR", cursive;
   font-optical-sizing: auto;
   font-weight: 100px;
   font-style: normal;
-}
-
+} */
