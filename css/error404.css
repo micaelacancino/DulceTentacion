@@ -1,0 +1,6 @@
+.btnError{
+  background-color: rgb(248, 235, 247);
+}
+.btnError:hover{
+  background-color: rgb(248, 233, 245,0.653);
+}
