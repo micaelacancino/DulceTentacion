@@ -1,5 +1,36 @@
 main {
+
+  font-family: "Playwrite AR", cursive;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.864),
+      rgba(242, 242, 242, 0.56)
+    ),
+    url("/img/imagen-fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.cardProduct {
+  transition: 0.7s;
+}
+
+
+    background: linear-gradient(rgba(255, 255, 255, 0.864), rgba(242, 242, 242, 0.56)),
+    url(/img/img4.jpg) no-repeat center center fixed;
+    background-size: cover;}
+
+
+.cardProduct:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
+
+
+  font-family: "Playwrite AR", cursive;
+
   font-family: "Jost:ital", cursive;
+
   background: linear-gradient(
       rgba(255, 255, 255, 0.864),
       rgba(242, 242, 242, 0.56)
@@ -22,6 +53,7 @@ main {
   transform: scale(1.05);
   transition: 0.7s;
 }
+
 
 .bgTitleCategory {
   background-color: rgb(248, 235, 233);
