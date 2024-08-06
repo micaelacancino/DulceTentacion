@@ -1,632 +1,425 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/img/logo1.png" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/c1bed60cef.js"
-      crossorigin="anonymous"
-    ></script>
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c1bed60cef.js" crossorigin="anonymous"></script>
     <title>Home/Dulce tentacción</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand">
-            <img
-              src="/img/logo1.png"
-              alt="logo-dulce-tentacion"
-              class="logohead"
-            />
-          </a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="/img/logo1.png" alt="logo-dulce-tentacion" class="logohead" />
+                </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menu"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-          <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item jost">
-                <a class="nav-link font" aria-current="page" href="/index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item jost">
-                <a class="nav-link" href="/pages/login.html">Iniciar sesión</a>
-              </li>
-              <li class="nav-item jost">
-                <a class="nav-link" href="/pages/registro.html">Registrarse</a>
-              </li>
-              <li class="nav-item jost">
-                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item jost">
-                <a class="nav-link" href="/pages/detalleCarrito.html"
-                  >Carrito <i class="fa-solid fa-cart-shopping"></i
-                ></a>
-              </li>
-            </ul>
-            <form class="d-flex mt-2 ms-2" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="🔍"
-                aria-label="Search"
-              />
-              <button class="btn btn-secondary" type="submit">Buscar</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item jost">
+                            <a class="nav-link font" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/login.html">Iniciar sesión</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/registro.html">Registrarse</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/detalleCarrito.html">Carrito <i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-2 ms-2" role="search">
+                        <input class="form-control me-2" type="search" placeholder="🔍" aria-label="Search" />
+                        <button class="btn btn-secondary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/imagenes-carousel/img-chocolate-small.png" class="d-md-none d-block w-100"
+                        alt="Imagen-torta-de-chocolate-para-dispositivos-pequeños" />
+                    <img src="/img/imagenes-carousel/img-chocolate-mediano.png"
+                        class="d-none d-lg-none d-md-block w-100"
+                        alt="Imagen-torta-de-chocolate-para-dispositivos-medianos" />
+                    <img src="/img/imagenes-carousel/img-chocolate.png" class="d-none d-lg-block w-100"
+                        alt="Imagen-torta-de-chocolate-para-dispositivos-grandes" />
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/imagenes-carousel/cupcakepromo-small.png" class="d-md-none d-block w-100"
+                        alt="Imagen-cupcake-promo-para-dispositivos-pequeños" />
+                    <img src="/img/imagenes-carousel/cupcakepromo-mediano.png" class="d-none d-lg-none d-md-block w-100"
+                        alt="Imagen-cupcake-promo-para-dispositivos-medianos" />
+                    <img src="/img/imagenes-carousel/cupcakepromo-grande.png" class="d-none d-lg-block w-100"
+                        alt="Imagen-cupcake-promo-para-dispositivos-grandes" />
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/imagenes-carousel/imagen-torta-small.png" class="d-md-none d-block w-100"
+                        alt="Imagen-de-torta-para-dispositivos-pequeños" />
+                    <img src="/img/imagenes-carousel/imagen-torta-mediano.png" class="d-none d-lg-none d-md-block w-100"
+                        alt="Imagen-de-torta-para-dispositivos-medianos" />
+                    <img src="/img/imagenes-carousel/imagen-torta-grande.png" class="d-none d-lg-block w-100"
+                        alt="Imagen-de-torta-para-dispositivos-grandes" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="/img/imagenes-carousel/img-chocolate-small.png"
-              class="d-md-none d-block w-100"
-              alt="Imagen-torta-de-chocolate-para-dispositivos-pequeños"
-            />
-            <img
-              src="/img/imagenes-carousel/img-chocolate-mediano.png"
-              class="d-none d-lg-none d-md-block w-100"
-              alt="Imagen-torta-de-chocolate-para-dispositivos-medianos"
-            />
-            <img
-              src="/img/imagenes-carousel/img-chocolate.png"
-              class="d-none d-lg-block w-100"
-              alt="Imagen-torta-de-chocolate-para-dispositivos-grandes"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/img/imagenes-carousel/cupcakepromo-small.png"
-              class="d-md-none d-block w-100"
-              alt="Imagen-cupcake-promo-para-dispositivos-pequeños"
-            />
-            <img
-              src="/img/imagenes-carousel/cupcakepromo-mediano.png"
-              class="d-none d-lg-none d-md-block w-100"
-              alt="Imagen-cupcake-promo-para-dispositivos-medianos"
-            />
-            <img
-              src="/img/imagenes-carousel/cupcakepromo-grande.png"
-              class="d-none d-lg-block w-100"
-              alt="Imagen-cupcake-promo-para-dispositivos-grandes"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/img/imagenes-carousel/imagen-torta-small.png"
-              class="d-md-none d-block w-100"
-              alt="Imagen-de-torta-para-dispositivos-pequeños"
-            />
-            <img
-              src="/img/imagenes-carousel/imagen-torta-mediano.png"
-              class="d-none d-lg-none d-md-block w-100"
-              alt="Imagen-de-torta-para-dispositivos-medianos"
-            />
-            <img
-              src="/img/imagenes-carousel/imagen-torta-grande.png"
-              class="d-none d-lg-block w-100"
-              alt="Imagen-de-torta-para-dispositivos-grandes"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <section class="bgTitleCategory mt-5 py-2">
-        <h1 class="text-center pt-4">Dulce tentación</h1>
-        <h4 class="text-center pt-3 mb-4">
-          Nuestra pasión es endulzar tus momentos especiales con la más
-          deliciosa repostería artesanal.
-        </h4>
-      </section>
-      <section class="container pt-5">
-        <h3 class="text-center mb-5 bgTitleCategory py-2">Cupcakes</h3>
-        <article class="row gy-4 gy-lg-1">
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/cupcakes/cupcakes-vainilla.jpg"
-                class="card-img-top imgCardProduct"
-                alt="cupacake-de-vainilla"
-              />
-              <div class="card-body px-0 text-center">
-                <h5 class="card-title text-center">Cupcake de vainilla</h5>
-                <p class="card-text text-center">$1.190,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/cupcakes/cupcakes-de-chocolate.jpg"
-                class="card-img-top imgCardProduct"
-                alt="cupacake-de-chocolate"
-              />
-              <div class="card-body px-0 text-center">
-                <h5 class="card-title text-center">Cupcake de chocolate</h5>
-                <p class="card-text text-center">$1.000,00 C/u</p>
-                <a href="/pages/detalleProductoCupcake.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/cupcakes/cupcakes-frutilla.jpg"
-                class="card-img-top imgCardProduct"
-                alt="cupacake-de-frutilla"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Cupcake de frutilla</h5>
-                <p class="card-text text-center">$1.200,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/cupcakes/cupcakes-de-manzana-y-canela.jpg"
-                class="card-img-top imgCardProduct"
-                alt="cupacake-de-manzana-y-canela"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Cupcake de manzana</h5>
-                <p class="card-text text-center">$1.150,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
-      <section class="container pt-5">
-        <h3 class="text-center mb-5 bgTitleCategory py-2">Tortas</h3>
-        <article class="row gy-4 gy-lg-1">
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/tortas/Caramel-Birthday Cake-.jpg"
-                class="card-img-top imgCardProduct"
-                alt="torta-de-caramelo"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Torta de caramelo</h5>
-                <p class="card-text text-center">$12.490,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/tortas/chocolate-berry cake.jpg"
-                class="card-img-top imgCardProduct"
-                alt="torta-de-chocolate"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Torta de chocolate</h5>
-                <p class="card-text text-center">$14.150,00 C/u</p>
-                <a href="/pages/detalleProductoTorta.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/tortas/Vegan-dark chocolate-cherry layer-cake.jpg"
-                class="card-img-top imgCardProduct"
-                alt="torta-de-chocolate-amargo"
-              />
-              <div class="card-body px-0 text-center">
-                <h5 class="card-title text-center">
-                  Torta de chocolate amargo
-                </h5>
-                <p class="card-text text-center">$17.840,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/tortas/torta-cerezas.webp"
-                class="card-img-top imgCardProduct"
-                alt="torta-de-cerezas"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Torta de cerezas</h5>
-                <p class="card-text text-center">$9.870,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
+        <section class="bgTitleCategory mt-5 py-2">
+            <h1 class="text-center pt-4">Dulce tentación</h1>
+            <h4 class="text-center pt-3 mb-4">
+                Nuestra pasión es endulzar tus momentos especiales con la más
+                deliciosa repostería artesanal.
+            </h4>
+        </section>
+        <section class="container pt-5">
+            <h3 class="text-center mb-5 bgTitleCategory py-2">Cupcakes</h3>
+            <article class="row gy-4 gy-lg-1">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/cupcakes/cupcakes-vainilla.jpg" class="card-img-top imgCardProduct"
+                            alt="cupacake-de-vainilla" />
+                        <div class="card-body px-0 text-center">
+                            <h5 class="card-title text-center">Cupcake de vainilla</h5>
+                            <p class="card-text text-center">$1.190,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/cupcakes/cupcakes-de-chocolate.jpg"
+                            class="card-img-top imgCardProduct" alt="cupacake-de-chocolate" />
+                        <div class="card-body px-0 text-center">
+                            <h5 class="card-title text-center">Cupcake de chocolate</h5>
+                            <p class="card-text text-center">$1.000,00 C/u</p>
+                            <a href="/pages/detalleProductoCupcake.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/cupcakes/cupcakes-frutilla.jpg" class="card-img-top imgCardProduct"
+                            alt="cupacake-de-frutilla" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Cupcake de frutilla</h5>
+                            <p class="card-text text-center">$1.200,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/cupcakes/cupcakes-de-manzana-y-canela.jpg"
+                            class="card-img-top imgCardProduct" alt="cupacake-de-manzana-y-canela" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Cupcake de manzana</h5>
+                            <p class="card-text text-center">$1.150,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="container pt-5">
+            <h3 class="text-center mb-5 bgTitleCategory py-2">Tortas</h3>
+            <article class="row gy-4 gy-lg-1">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/tortas/Caramel-Birthday Cake-.jpg" class="card-img-top imgCardProduct"
+                            alt="torta-de-caramelo" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Torta de caramelo</h5>
+                            <p class="card-text text-center">$12.490,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/tortas/chocolate-berry cake.jpg" class="card-img-top imgCardProduct"
+                            alt="torta-de-chocolate" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Torta de chocolate</h5>
+                            <p class="card-text text-center">$14.150,00 C/u</p>
+                            <a href="/pages/detalleProductoTorta.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/tortas/Vegan-dark chocolate-cherry layer-cake.jpg"
+                            class="card-img-top imgCardProduct" alt="torta-de-chocolate-amargo" />
+                        <div class="card-body px-0 text-center">
+                            <h5 class="card-title text-center">
+                                Torta de chocolate amargo
+                            </h5>
+                            <p class="card-text text-center">$17.840,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/tortas/torta-cerezas.webp" class="card-img-top imgCardProduct"
+                            alt="torta-de-cerezas" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Torta de cerezas</h5>
+                            <p class="card-text text-center">$9.870,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
 
-      <section class="container my-5 d-none d-md-block">
-        <h3 class="text-center bgTitleCategory py-2 my-5">
-          Nuestras promociones
-        </h3>
-        <article class="row">
-          <div class="col-md-6 publicidad">
-            <img
-              class="imgSizePromotion promotion"
-              src="./img/promociones/promociones1.png"
-              alt="imagen-de-promociones"
-            />
-          </div>
-          <div class="col-md-6">
-            <img
-              class="imgSizePromotion promotion"
-              src="./img/promociones/promociones2.jpg"
-              alt="imagen-de-promociones"
-            />
-          </div>
-        </article>
-      </section>
+        <section class="container my-5 d-none d-md-block">
+            <h3 class="text-center bgTitleCategory py-2 my-5">
+                Nuestras promociones
+            </h3>
+            <article class="row">
+                <div class="col-md-6 publicidad">
+                    <img class="imgSizePromotion promotion" src="./img/promociones/promociones1.png"
+                        alt="imagen-de-promociones" />
+                </div>
+                <div class="col-md-6">
+                    <img class="imgSizePromotion promotion" src="./img/promociones/promociones2.jpg"
+                        alt="imagen-de-promociones" />
+                </div>
+            </article>
+        </section>
 
-      <section class="container pt-5">
-        <h3 class="text-center mb-5 bgTitleCategory py-2">Tartas</h3>
-        <article class="row gy-4 gy-lg-1">
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/tartas/tarta-naranja.jpg"
-                class="card-img-top imgCardProduct"
-                alt="tarta-naranja"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Tarta de naranja</h5>
-                <p class="card-text text-center">$10.490,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/tartas/tarta-frutal.jpg"
-                class="card-img-top imgCardProduct"
-                alt="tarta-frutal"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Tarta frutal</h5>
-                <p class="card-text text-center">$6.400,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/tartas/tarta-de-queso.jpg"
-                class="card-img-top imgCardProduct"
-                alt="tarta-de-queso"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Tarta de queso</h5>
-                <p class="card-text text-center">$7.000,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/tartas/Tarta-de-cerezas-clafutis.jpg"
-                class="card-img-top imgCardProduct"
-                alt="Tarta-de-cerezas-clafutis"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Tarta de cerezas</h5>
-                <p class="card-text text-center">$8.290,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
-      <section class="container pt-5 my-5">
-        <h3 class="text-center mb-5 bgTitleCategory py-2">Galletas</h3>
-        <article class="row gy-4 gy-lg-1">
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/galletas/galletas-jengibre.jpg"
-                class="card-img-top imgCardProduct"
-                alt="galletas-jengibre"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Galletas de jengibre</h5>
-                <p class="card-text text-center">$800,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/galletas/galleta-avena1.jpg"
-                class="card-img-top imgCardProduct"
-                alt="galletas-de-avena"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Galletas de avena</h5>
-                <p class="card-text text-center">$500,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/galletas/oreo-cokies.png"
-                class="card-img-top imgCardProduct"
-                alt="galletas-oreo"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Galletas con oreos</h5>
-                <p class="card-text text-center">$490,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card border-0 cardProduct">
-              <img
-                src="/img/categorias/galletas/choco-chip-cookies.webp"
-                class="card-img-top imgCardProduct"
-                alt="galletas-chochoChips"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Galletas chocochips</h5>
-                <p class="card-text text-center">$450,00 C/u</p>
-                <a href="/pages/error404.html"
-                  ><button
-                    type="button"
-                    class="rounded-1 colorButtom border-0 py-2 px-5"
-                  >
-                    Ver más..
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
+        <section class="container pt-5">
+            <h3 class="text-center mb-5 bgTitleCategory py-2">Tartas</h3>
+            <article class="row gy-4 gy-lg-1">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/tartas/tarta-naranja.jpg" class="card-img-top imgCardProduct"
+                            alt="tarta-naranja" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Tarta de naranja</h5>
+                            <p class="card-text text-center">$10.490,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/tartas/tarta-frutal.jpg" class="card-img-top imgCardProduct"
+                            alt="tarta-frutal" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Tarta frutal</h5>
+                            <p class="card-text text-center">$6.400,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/tartas/tarta-de-queso.jpg" class="card-img-top imgCardProduct"
+                            alt="tarta-de-queso" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Tarta de queso</h5>
+                            <p class="card-text text-center">$7.000,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/tartas/Tarta-de-cerezas-clafutis.jpg"
+                            class="card-img-top imgCardProduct" alt="Tarta-de-cerezas-clafutis" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Tarta de cerezas</h5>
+                            <p class="card-text text-center">$8.290,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="container pt-5 my-5">
+            <h3 class="text-center mb-5 bgTitleCategory py-2">Galletas</h3>
+            <article class="row gy-4 gy-lg-1">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/galletas/galletas-jengibre.jpg" class="card-img-top imgCardProduct"
+                            alt="galletas-jengibre" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Galletas de jengibre</h5>
+                            <p class="card-text text-center">$800,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/galletas/galleta-avena1.jpg" class="card-img-top imgCardProduct"
+                            alt="galletas-de-avena" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Galletas de avena</h5>
+                            <p class="card-text text-center">$500,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/galletas/oreo-cokies.png" class="card-img-top imgCardProduct"
+                            alt="galletas-oreo" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Galletas con oreos</h5>
+                            <p class="card-text text-center">$490,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card border-0 cardProduct">
+                        <img src="/img/categorias/galletas/choco-chip-cookies.webp" class="card-img-top imgCardProduct"
+                            alt="galletas-chochoChips" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Galletas chocochips</h5>
+                            <p class="card-text text-center">$450,00 C/u</p>
+                            <a href="/pages/error404.html"><button type="button"
+                                    class="rounded-1 colorButtom border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
     <footer class="colorFooter" id="footer">
-      <section class="container-fluid text-center">
-        <article class="row my-4 my-md-2 pt-md-4">
-          <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
-            <img
-              class="logoSize"
-              src="/img/Logo1.png"
-              alt="logo-dulce-tentacion"
-            />
-          </div>
-          <div class="col-sm-12 col-md-3">
-            <h5 class="jost">Soporte</h5>
-            <ul
-              class="list-unstyled d-flex justify-content-center flex-md-column"
-            >
-              <li>
-                <a class="jost pe-2" href="./pages/nosotros.html">Nosotros</a>
-              </li>
-              <li>
-                <a class="jost px-2" href="./contacto.html">Contactános</a>
-              </li>
+        <section class="container-fluid text-center">
+            <article class="row my-4 my-md-2 pt-md-4">
+                <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
+                    <img class="logoSize" src="/img/Logo1.png" alt="logo-dulce-tentacion" />
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h5 class="jost">Soporte</h5>
+                    <ul class="list-unstyled d-flex justify-content-center flex-md-column">
+                        <li>
+                            <a class="jost pe-2" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li>
+                            <a class="jost px-2" href="./contacto.html">Contactános</a>
+                        </li>
 
-              <li>
-                <a class="jost ps-2 ps-md-0" href="./error404.html">Ayuda</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-12 col-md-3">
-            <h5 class="jost pb-md-2 pt-2">Horarios de atención</h5>
-            <p class="jost my-0">Lunes- Viernes: 8:00-20:00hs</p>
-            <p class="jost my-0">General Paz 576, San Miguel de Tucumán</p>
-          </div>
-          <div class="col-sm-12 col-md-3">
-            <h5 class="jost mt-4 mt-md-0">Nuestras redes</h5>
-            <a class="socialSize" href="./error404.html"
-              ><i class="bi bi-instagram text-dark"></i
-            ></a>
-            <a class="socialSize px-2" href="./error404.html"
-              ><i class="bi bi-facebook text-dark"></i
-            ></a>
-            <a class="socialSize" href="./error404.html"
-              ><i class="bi bi-twitter text-dark"></i
-            ></a>
-          </div>
-        </article>
-      </section>
-      <p class="text-center border-none montserrat my-0 mt-2">
-        &copy; 2024. Todos los derechos reservados
-      </p>
+                        <li>
+                            <a class="jost ps-2 ps-md-0" href="./error404.html">Ayuda</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h5 class="jost pb-md-2 pt-2">Horarios de atención</h5>
+                    <p class="jost my-0">Lunes- Viernes: 8:00-20:00hs</p>
+                    <p class="jost my-0">General Paz 576, San Miguel de Tucumán</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h5 class="jost mt-4 mt-md-0">Nuestras redes</h5>
+                    <a class="socialSize" href="./error404.html"><i class="bi bi-instagram text-dark"></i></a>
+                    <a class="socialSize px-2" href="./error404.html"><i class="bi bi-facebook text-dark"></i></a>
+                    <a class="socialSize" href="./error404.html"><i class="bi bi-twitter text-dark"></i></a>
+                </div>
+            </article>
+        </section>
+        <p class="text-center border-none montserrat my-0 mt-2">
+            &copy; 2024. Todos los derechos reservados
+        </p>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
