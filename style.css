@@ -58,9 +58,9 @@ main {
   transition: 0.7s;
 }
 
-/* .playwrite-ar {
+.playwrite-ar {
   font-family: "Playwrite AR", cursive;
   font-optical-sizing: auto;
   font-weight: 100px;
   font-style: normal;
-} */
+}
