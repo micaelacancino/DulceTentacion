@@ -20,6 +20,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/c1bed60cef.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/contacto.css">
@@ -27,9 +31,13 @@
   </head>
   <header>
     <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand">
-          <img src="/img/logo1.png" alt="logo-dulce-tentacion" width="120" />
+      <div class="container-fluid">
+        <a href="/index.html" class="navbar-brand">
+          <img
+            src="/img/logo1.png"
+            alt="logo-dulce-tentacion"
+            class="logohead"
+          />
         </a>
 
         <button
@@ -46,29 +54,27 @@
 
         <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link font jost"
-                aria-current="page"
-                href="/index.html"
+            <li class="nav-item jost">
+              <a class="nav-link font" aria-current="page" href="/index.html"
                 >Inicio</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link jost" href="#login">Iniciar sesion</a>
+            <li class="nav-item jost">
+              <a class="nav-link" href="/pages/login.html">Iniciar sesión</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link jost" href="#registro">Registrarse</a>
+            <li class="nav-item jost">
+              <a class="nav-link" href="/pages/registro.html">Registrarse</a>
             </li>
             <li class="nav-item jost">
               <a class="nav-link" href="#footer">Contacto</a>
             </li>
             <li class="nav-item jost">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="/pages/detalleCarrito.html"
                 >Carrito <i class="fa-solid fa-cart-shopping"></i
               ></a>
             </li>
           </ul>
+
           <form class="d-flex mt-2 ms-2" role="search">
             <input
               class="form-control me-2"
