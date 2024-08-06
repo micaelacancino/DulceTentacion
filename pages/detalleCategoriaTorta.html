@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/detalleCategoriaTorta.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Detallecategoriatorta</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="/img/logo1.png" alt="logo-dulce-tentacion" class="logohead"/>
+                </a>
+            
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item jost">
+                            <a class="nav-link font" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/login.html">Iniciar sesión</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/registro.html">Registrarse</a>
+                        </li>
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                        </li> 
+                        <li class="nav-item jost">
+                            <a class="nav-link" href="/pages/detalleCarrito.html">Carrito  <i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-2 ms-2" role="search">
+                        <input class="form-control me-2" type="search" placeholder="🔍" aria-label="Search" />
+                        <button class="btn btn-secondary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container py-2">
+            <div class="Torta">
+                <h1 class="p-1 fw-bold text-center mb-4">Tortas</h1>
+            </div>
+            <div class="text-center">
+                <img src="/img/imagenes-carousel/img-chocolate-small.png" alt="imagen de torta" class="img-fluid imgtort">
+            </div>
+            <h2 class="my-4 mb-4 mt-5 d-flex justify-content-center">Variedades</h2>
+            <div class="container d-flex flex-column gap-2 flex-sm-row gap-sm-3 p-3 border my-3 varrellto">
+                <div class="container">
+                    <p class="fw-bold tit">Especialidades</p>
+                    <div class="row">
+                        <div class="col">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Torta Chocolate
+                        </div>
+                        <div class="col">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Torta Caramelo
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Torta Capitas
+                        </div>
+                        <div class="col">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Torta Cereza
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container">
+                        <p class="fw-bold tit">Rellenos</p>
+                        <div class="row">
+                            <div class="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Crema Moka
+                            </div>
+                            <div class="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Dulce de leche
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Frambuesa
+                            </div>
+                            <div class="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Nutella
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Frutos del bosque
+                            </div>
+                            <div class="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Crema chantilly
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container pt-5">
+            <h3 class="text-center mb-5 detcattitcol py-2">Tortas</h3>
+            <article class="row gy-4 gy-lg-1 mb-5">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="cardtorta border-0">
+                        <img src="/img/categorias/tortas/Caramel-Birthday Cake-.jpg" class="card-img-top imgtorta"
+                            alt="torta-de-caramelo" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Torta de caramelo</h5>
+                            <p class="card-text text-center">$12.490,00 C/u</p>
+                            <a href=""><button type="button" class="rounded-1 colorButtomtorta border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="cardtorta border-0">
+                        <img src="/img/categorias/tortas/chocolate-berry cake.jpg" class="card-img-top imgtorta"
+                            alt="torta-de-chocolate" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Torta de chocolate</h5>
+                            <p class="card-text text-center">$14.150,00 C/u</p>
+                            <a href=""><button type="button" class="rounded-1 colorButtomtorta border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="cardtorta border-0">
+                        <img src="/img/categorias/tortas/Vegan-dark chocolate-cherry layer-cake.jpg"
+                            class="card-img-top imgtorta" alt="torta-de-chocolate-amargo" />
+                        <div class="card-body px-0 text-center">
+                            <h5 class="card-title text-center">
+                                Torta de chocolate
+                            </h5>
+                            <p class="card-text text-center">$17.840,00 C/u</p>
+                            <a href=""><button type="button" class="rounded-1 colorButtomtorta border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="cardtorta border-0">
+                        <img src="/img/categorias/tortas/torta-chocolate.jpg" class="card-img-top imgtorta"
+                            alt="torta-de-cerezas" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Todo Chocolate</h5>
+                            <p class="card-text text-center">$9.870,00 C/u</p>
+                            <a href=""><button type="button" class="rounded-1 colorButtomtorta border-0 py-2 px-5">
+                                    Ver más..
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="d-flex justify-content-center align-content-center mt-5">
+            <ul class="pagination">
+                <li class="page-item-disabled"><a class="page-link text-dark">Anterior</a></li>
+                <li class="page-item-active"><a class="page-link text-dark"
+                        href="/pages/detalleCategoriaTorta.html">1</a>
+                </li>
+                <li class="page-item"><a class="page-link text-dark" href="/pages/error404.html">2</a></li>
+                <li class="page-item"><a class="page-link text-dark" href="/pages/error404.html">3</a></li>
+                <li class="page-item"><a class="page-link text-dark" href="/pages/error404.html">Siguiente</a></li>
+            </ul>
+        </section>
+        
+    </main>
+    <footer class="colorFooter" id="footer">
+        <section class="container-fluid text-center">
+            <article class="row my-4 my-md-2 pt-md-4">
+                <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
+                    <img class="logoSize" src="/img/logo1.png" alt="logo-dulce-tentacion" />
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h5 class="jost ">Soporte</h5>
+                    <ul class="list-unstyled d-flex justify-content-center flex-md-column">
+                        <li>
+                            <a class="jost pe-2" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li>
+                            <a class="jost px-2" href="./contacto.html">Contactános</a>
+                        </li>
+
+                        <li><a class="jost ps-2 ps-md-0" href="./error404.html">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h5 class="jost pb-md-2 pt-2">Horarios de atención</h5>
+                    <p class="jost my-0">Lunes- Viernes: 8:00-20:00hs</p>
+                    <p class="jost my-0">General Paz 576, San Miguel de Tucumán</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h5 class="jost mt-4 mt-md-0">Nuestras redes</h5>
+                    <a class="socialSize" href="./error404.html"><i class="bi bi-instagram text-dark"></i></a>
+                    <a class="socialSize px-2" href="./error404.html"><i class="bi bi-facebook text-dark"></i></a>
+                    <a class="socialSize" href="./error404.html"><i class="bi bi-twitter text-dark"></i></a>
+                </div>
+            </article>
+        </section>
+        <p class="text-center border-none montserrat my-0 mt-2">
+            &copy; 2024. Todos los derechos reservados
+        </p>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
+
+
