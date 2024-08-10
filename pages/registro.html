@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/registro.css" />
+    <meta name="author" content="Mica, " />
     <script
       src="https://kit.fontawesome.com/c1bed60cef.js"
       crossorigin="anonymous"
@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/registro.css" />
     <title>registro</title>
   </head>
 
@@ -97,7 +98,7 @@
       </nav>
     </header>
     <main>
-      <section class="container my-4">
+      <section class="container my-5">
         <a href="/index.html">
           <i class="bi bi-arrow-left-circle-fill fs-2 text-secondary"></i>
         </a>
@@ -109,14 +110,14 @@
             <img
               src="/img/img1.jpg"
               alt="imagen de un cocinero con muchos cupcake"
-              class="imgregistro rounded-4"
+              class="imgRegistro rounded-4 img-fluid"
             />
           </div>
 
           <div class="contenedorregistro col-md-6">
-            <form class="jost formregistro px-3 py-3 shadow">
-              <div class="mb-3">
-                <label for="nombreyapellido" class="form-label"
+            <form class="formregistro px-2 px-lg-4 py-3 shadow">
+              <div class="mb-2">
+                <label for="nombreyapellido" class="form-label mb-0 fw-medium"
                   >Nombre y Apellido</label
                 >
                 <input
@@ -130,8 +131,8 @@
                 />
               </div>
 
-              <div class="mb-3">
-                <label for="nombreusuario" class="form-label"
+              <div class="mb-2">
+                <label for="nombreusuario" class="form-label mb-0 fw-medium"
                   >Nombre de usuario</label
                 >
                 <input
@@ -144,9 +145,11 @@
                   minlength="3"
                 />
               </div>
-              <div class="d-flex">
-                <div class="me-1">
-                  <label for="telefono" class="form-label">Telefono</label>
+              <div class="d-flex flex-column flex-md-row gap-2">
+                <div class="mb-2">
+                  <label for="telefono" class="form-label mb-0 fw-medium"
+                    >Teléfono</label
+                  >
                   <input
                     type="tel"
                     class="form-control"
@@ -158,8 +161,8 @@
                   />
                 </div>
                 <div class="ms-1">
-                  <label for="codigopostal" class="form-label"
-                    >Codigo postal</label
+                  <label for="codigopostal" class="form-label mb-0 fw-medium"
+                    >Código postal</label
                   >
                   <input
                     type="text"
@@ -172,8 +175,10 @@
                 </div>
               </div>
 
-              <div class="mb-3">
-                <label for="email" class="form-label">Correo electronico</label>
+              <div class="mb-2">
+                <label for="email" class="form-label mb-0 fw-medium"
+                  >Correo electronico</label
+                >
                 <input
                   type="email"
                   class="form-control"
@@ -184,8 +189,10 @@
                 />
               </div>
 
-              <div class="mb-3">
-                <label for="Password" class="form-label">Contraseña</label>
+              <div class="mb-2">
+                <label for="Password" class="form-label mb-0 fw-medium"
+                  >Contraseña</label
+                >
                 <input
                   type="password"
                   class="form-control"
@@ -214,16 +221,16 @@
               <div class="d-flex justify-content-center">
                 <button
                   type="submit"
-                  class="btnregistro w-75 mb-3 border-1 rounded-2 fs-5"
+                  class="btnregistro w-75 mb-3 border-1 rounded-2 py-1"
                 >
                   Crear cuenta
                 </button>
                 <hr />
               </div>
 
-              <p class="jost text-center">
+              <p class="text-center">
                 ¿Ya tienes cuenta?
-                <a class="jost aregist" href="../pages/login.html"
+                <a class="aregist fw-medium" href="../pages/login.html"
                   >Inicia sesión acá.</a
                 >
               </p>
@@ -234,42 +241,58 @@
     </main>
     <footer class="colorFooter" id="footer">
       <section class="container-fluid text-center">
-          <article class="row my-4 my-md-2 pt-md-4">
-              <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
-                  <img class="logoSize" src="/img/Logo1.png" alt="logo-dulce-tentacion" />
-              </div>
-              <div class="col-sm-12 col-md-3">
-                  <h5 class="jost">Soporte</h5>
-                  <ul class="list-unstyled d-flex justify-content-center flex-md-column">
-                      <li>
-                          <a class="jost pe-2" href="../pages/nosotros.html">Nosotros</a>
-                      </li>
-                      <li>
-                          <a class="jost px-2" href="../pages/contacto.html">Contactános</a>
-                      </li>
+        <article class="row my-4 my-md-2 pt-md-4">
+          <div class="col-sm-12 col-md-3 mb-2 mb-md-0">
+            <img
+              class="logoSize"
+              src="/img/Logo1.png"
+              alt="logo-dulce-tentacion"
+            />
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <h5 class="jost">Soporte</h5>
+            <ul
+              class="list-unstyled d-flex justify-content-center flex-md-column"
+            >
+              <li>
+                <a class="jost pe-2" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li>
+                <a class="jost px-2" href="../pages/contacto.html"
+                  >Contactános</a
+                >
+              </li>
 
-                      <li>
-                          <a class="jost ps-2 ps-md-0" href="../pages/error404.html">Ayuda</a>
-                      </li>
-                  </ul>
-              </div>
-              <div class="col-sm-12 col-md-3">
-                  <h5 class="jost pb-md-2 pt-2">Horarios de atención</h5>
-                  <p class="jost my-0">Lunes- Viernes: 8:00-20:00hs</p>
-                  <p class="jost my-0">General Paz 576, San Miguel de Tucumán</p>
-              </div>
-              <div class="col-sm-12 col-md-3">
-                  <h5 class="jost mt-4 mt-md-0">Nuestras redes</h5>
-                  <a class="socialSize" href="../pages/error404.html"><i class="bi bi-instagram text-dark"></i></a>
-                  <a class="socialSize px-2" href="../pages/error404.html"><i class="bi bi-facebook text-dark"></i></a>
-                  <a class="socialSize" href="../pages/error404.html"><i class="bi bi-twitter text-dark"></i></a>
-              </div>
-          </article>
+              <li>
+                <a class="jost ps-2 ps-md-0" href="../pages/error404.html"
+                  >Ayuda</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <h5 class="jost pb-md-2 pt-2">Horarios de atención</h5>
+            <p class="jost my-0">Lunes- Viernes: 8:00-20:00hs</p>
+            <p class="jost my-0">General Paz 576, San Miguel de Tucumán</p>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <h5 class="jost mt-4 mt-md-0">Nuestras redes</h5>
+            <a class="socialSize" href="../pages/error404.html"
+              ><i class="bi bi-instagram text-dark"></i
+            ></a>
+            <a class="socialSize px-2" href="../pages/error404.html"
+              ><i class="bi bi-facebook text-dark"></i
+            ></a>
+            <a class="socialSize" href="../pages/error404.html"
+              ><i class="bi bi-twitter text-dark"></i
+            ></a>
+          </div>
+        </article>
       </section>
       <p class="text-center border-none montserrat my-0 mt-2">
-          &copy; 2024. Todos los derechos reservados
+        &copy; 2024. Todos los derechos reservados
       </p>
-  </footer>
+    </footer>
     <body>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
