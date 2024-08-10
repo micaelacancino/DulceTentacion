@@ -1,4 +1,5 @@
 .formregistro {
+  width: 100%;
   background-color: rgb(255, 245, 247);
 }
 .btnregistro {
@@ -22,4 +23,10 @@
 .aregist {
   text-decoration: none;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .formregistro {
+    width: 500px;
+  }
 }
